@@ -18,7 +18,7 @@ export const LessonList = () => {
           const time = new Date(lekce.time);
           const studio = data.Studio.find((s) => s.id === lekce.studioId);
           return (
-            <Link to="/lesson/:id">
+            <Link to={`/lesson/${lekce.id}`}>
               <img className="results__img" src="assets/lotos.svg" alt="" />
               <span>{` ${time.getHours()}: ${time.getMinutes()}`}</span>{' '}
               <span>{studio.name}</span> <span>{lekce.occupancy}</span>
