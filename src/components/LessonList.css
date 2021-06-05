@@ -1,0 +1,19 @@
+.results-intro {
+  height: 40vh;
+  width: 100%;
+  text-align: center;
+}
+
+.results-intro a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  line-height: 2;
+  font-size: 1.5rem;
+}
+
+.results__heading {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+}
