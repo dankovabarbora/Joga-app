@@ -1,0 +1,250 @@
+.intro {
+  background-image: url('../assets/rozcestnik_edit.jpg');
+  background-size: cover;
+  background-position: top center;
+  min-height: /*100vh*/ 400px;
+  min-width: 100%;
+}
+.intro__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro h1 {
+  color: black;
+  font-size: 3rem;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  padding-top: 80px;
+  text-shadow: 1px 1px 1px black;
+  min-width: 300px;
+  width: 300px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+}
+
+.intro__articles {
+  display: flex;
+}
+
+.intro__pose {
+  width: 100px;
+}
+
+.intro__article {
+  flex-basis: calc(100% / 3);
+  text-align: center;
+  padding: 20px;
+}
+
+.intro__heading {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+}
+
+.results-intro {
+  height: 40vh;
+  width: 100%;
+  text-align: center;
+}
+
+.results-intro a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  line-height: 2;
+  font-size: 1.5rem;
+}
+
+.results__heading {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+}
+
+.search {
+  width: 85vw;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.search__form {
+  width: 85vw;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+}
+
+.search__fields input {
+  border: 1px solid black;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.checkbox__input {
+  margin: 0;
+  width: 2rem;
+}
+
+.btn__advanced {
+  display: block;
+  border: none;
+  border-radius: 100px;
+  width: 100%;
+  height: 8vmin;
+}
+
+.map-intro {
+  height: 50vh;
+  /* background-image: url('./img/mapa.PNG'); */
+  background-size: cover;
+  margin: 20px 20px 20px 20px;
+  border: 1px solid black;
+}
+
+input {
+  display: block;
+  height: 3em;
+  border-radius: 5px;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40vh;
+  width: 85vw;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.results a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  line-height: 2;
+}
+
+.results h2 {
+  text-align: center;
+}
+
+.results__img {
+  height: 1.5em;
+  width: 1.5em;
+  margin-bottom: -4.5px;
+}
+
+.results {
+  margin: 10px;
+}
+
+/*RESPOONZIVITA*/
+
+/*Responzivita */
+@media (min-width: 470px) {
+  .intro__div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro__btn a {
+    top: 35%;
+  }
+}
+
+@media (min-width: 640px) {
+  .intro__div {
+    width: 75%;
+  }
+
+  /*.map,*/
+  .results {
+    height: 50vh;
+    width: 60vw;
+  }
+
+  .search {
+    width: 60vw;
+  }
+
+  .studios__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .studio__card {
+    width: 35%;
+    margin: 20px 0;
+  }
+}
+
+@media (min-width: 796px) {
+  .search-intro {
+    display: flex;
+  }
+
+  .search__form {
+    flex-basis: 30%;
+  }
+
+  .map-intro {
+    flex-basis: 70%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .intro__div {
+    width: 60%;
+  }
+  .intro h1 {
+    font-size: 4rem;
+    width: 400px;
+    padding-bottom: 40px;
+  }
+
+  .search-intro {
+    display: flex;
+  }
+
+  .search__form {
+    flex-basis: 30%;
+  }
+
+  .map-intro {
+    flex-basis: 70%;
+  }
+
+  .intro__text {
+    font-size: 1.25rem;
+  }
+
+  .intro__btn a {
+    font-size: 1.5rem;
+  }
+
+  .main__div {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .map,
+  .search,
+  .results {
+    width: 35vw;
+    height: 70vh;
+  }
+}
