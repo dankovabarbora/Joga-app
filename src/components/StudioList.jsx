@@ -11,35 +11,35 @@ export const StudioList = () => {
           <Link to="/studio">
             <h2>YOGA &amp; ART</h2>
           </Link>
-          <img src="./img/calder-b-aHll22KZdJE-unsplash.jpg" alt="" />
+          <img src="../assets/ilustracni_foto_studio.jpg" alt="" />
         </div>
         <div class="studio__card">
           <h2>Jógovna</h2>
-          <img src="./img/calder-b-aHll22KZdJE-unsplash.jpg" alt="" />
+          <img src="../assets/ilustracni_foto_studio.jpg" alt="" />
         </div>
         <div class="studio__card">
           <h2>Jógovna</h2>
-          <img src="./img/calder-b-aHll22KZdJE-unsplash.jpg" alt="" />
+          <img src="../assets/ilustracni_foto_studio.jpg" alt="" />
         </div>
         <div class="studio__card">
           <h2>Jógovna</h2>
-          <img src="./img/calder-b-aHll22KZdJE-unsplash.jpg" alt="" />
+          <img src="../assets/ilustracni_foto_studio.jpg" alt="" />
         </div>
         <div class="studio__card">
           <h2>Jógovna</h2>
-          <img src="./img/calder-b-aHll22KZdJE-unsplash.jpg" alt="" />
+          <img src="../assets/ilustracni_foto_studio.jpg" alt="" />
         </div>
         <div class="studio__card">
           <h2>Jógovna</h2>
-          <img src="./img/calder-b-aHll22KZdJE-unsplash.jpg" alt="" />
+          <img src="../assets/ilustracni_foto_studio.jpg" alt="" />
         </div>
         <div class="studio__card">
           <h2>Jógovna</h2>
-          <img src="./img/calder-b-aHll22KZdJE-unsplash.jpg" alt="" />
+          <img src="../assets/ilustracni_foto_studio.jpg" alt="" />
         </div>
         <div class="studio__card">
           <h2>Jógovna</h2>
-          <img src="./img/calder-b-aHll22KZdJE-unsplash.jpg" alt="" />
+          <img src="../assets/ilustracni_foto_studio.jpg" alt="" />
         </div>
       </div>
     </section>
