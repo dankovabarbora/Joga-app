@@ -23,17 +23,25 @@ export const LessonList = (props) => {
   console.log(filteredLessons.length);
   return (
     <>
-      <h2 className="results__heading">Výsledky hledání</h2>
       <div className="results-intro">
+        <h2 className="results__heading">Výsledky hledání</h2>
         {filteredLessons.map((lekce) => {
           const time = new Date(lekce.time);
           const studio = data.Studio.find((s) => s.id === lekce.studioId);
           return (
             <Link key={lekce.id} to={`/lesson/${lekce.id}`}>
               <img className="results__img" src="assets/lotos.svg" alt="" />
-              <span>{` ${time.getHours()}: ${time.getMinutes()}`}</span>{' '}
-              <span>{studio.name}</span> <span>{lekce.occupancy}</span>
-              <span>{lekce.title}</span>
+              <span className="results__time">{` ${String(
+                time.getHours(),
+              ).padStart(2, 0)}:${String(time.getMinutes()).padStart(
+                2,
+                0,
+              )}`}</span>{' '}
+              <span className="results__StudioName">{studio.name}</span> <br />
+              <span className="results__title">{lekce.title}</span>{' '}
+              <span className={lekce.occupancy === 'full' ? 'obsazeno' : ''}>
+                {lekce.occupancy === 'full' ? 'Obsazeno' : null}
+              </span>
             </Link>
           );
         })}

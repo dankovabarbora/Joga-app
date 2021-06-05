@@ -1,7 +1,6 @@
 .results-intro {
-  height: 40vh;
   width: 100%;
-  text-align: center;
+  background-color: whitesmoke;
 }
 
 .results-intro a {
@@ -9,11 +8,38 @@
   text-decoration: none;
   color: black;
   line-height: 2;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  margin: 10px;
+  padding-left: 20px;
 }
 
 .results__heading {
   text-align: center;
   font-family: 'Amatic SC', cursive;
   font-size: 2rem;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.results__StudioName {
+  font-weight: bold;
+}
+
+.results__time {
+  font-size: 1.25rem;
+}
+
+.results__title {
+  padding-left: 0px;
+}
+
+.obsazeno {
+  color: brown;
+}
+
+.results-intro a:nth-child(1n) {
+  background-color: rgb(209, 235, 236);
+}
+.results-intro a:nth-child(2n) {
+  background-color: lightgray;
 }
