@@ -1,0 +1,31 @@
+.oneStudio {
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.oneStudio h1 {
+  margin-left: 20px;
+}
+
+.oneStudio__details {
+  margin: 20px;
+  line-height: 1.5;
+}
+.oneStudio__description {
+  text-align: justify;
+}
+.oneStudio__icons {
+  height: 1em;
+  width: 1em;
+}
+
+.oneStudio__links {
+  margin: 40px;
+}
+
+.oneStudio__links a {
+  text-decoration: none;
+}
