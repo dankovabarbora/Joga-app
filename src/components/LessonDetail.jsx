@@ -20,12 +20,30 @@ export const LessonDetail = () => {
 
   return (
     <section className="oneResult">
-      <div className="oneResult__div">
-        <p className="oneResult__headnig">
+      
+        <h1 className="oneResult__heading">
           <span>{` ${time.getHours()}:${time.getMinutes()}`} </span>
           <span>{studio.name} </span>
           <span>{lekce.title}</span>
-        </p>
+        </h1>
+        <div className="oneResult__div">
+        <div className="oneResult__details">
+          <ul>
+            {/*<li>Název lekce: {lekce.title}</li>*/}
+            <li className="oneResult__description">{lekce.description}</li>
+            <hr></hr>
+            <li className="oneResult__capacity">Kapacita: {lekce.occupancy==="full" ? "Kapacita této lekce byla naplněna." : "Na této lekci jsou stále volná místa."}</li>
+            <li className="oneResult__difficulty">Náročnost: {lekce.difficulty} </li>
+            <li className="oneResult__length">Délka lekce (v hodinách): {lekce.length} </li>
+            <li className="oneResult__teacher">Lektor: {lekce.teacher}</li>
+            <li className="oneResult__price">Cena: {lekce.price}</li>
+            <div className="oneResult__contacts">
+            <li>Kontakt na studio: {`${studio.email}, ${studio.phone}`}</li>
+            <li>Webové stránky studia: {studio.website}</li>
+            <li>Rezervační sytém: {lekce.reservation}</li>
+            </div>
+          </ul>
+        </div>
         <div className="oneResult__photogallery">
           <div className="oneResult__photos">
             {photos.map((photo, index) => {
@@ -33,19 +51,7 @@ export const LessonDetail = () => {
             })}
           </div>
         </div>
-        <div className="oneResult__details">
-          <ul>
-            <li>Typ: {lekce.title}</li>
-            <li>Počet volných míst: {lekce.occupancy}</li>
-            <li>Náročnost: {lekce.difficulty} </li>
-            <li>Délka lekce: {lekce.length}</li>
-            <li>Lektor: {lekce.teacher}</li>
-            <li>Cena: {lekce.price}</li>
-            <li>Kontakt na studio: {`${studio.email}, ${studio.phone}`}</li>
-            <li>Webové stránky studia: {studio.website}</li>
-            <li>Rezervační sytém: {lekce.reservation}</li>
-          </ul>
-        </div>
+        
         {/* <button>
           <Link to="/lesson-list">Zpět na výsledky hledání</Link>
         </button> */}
