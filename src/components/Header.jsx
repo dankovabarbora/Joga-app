@@ -7,9 +7,9 @@ export const Header = () => {
     <header className="header">
       <div className="logo-container">
         <Link className="" to="/">
-          <img className="logo-lotos" src="/assets/lotos.svg" alt="lotos" />
+          <img className="logo-lotos" src="../assets/lotos.svg" alt="lotos" />
         </Link>
-        <p className="logo-text">Za jógou</p>
+        <p className="logo-text">Na jógu</p>
       </div>
 
       <nav className="menu nav-closed">
