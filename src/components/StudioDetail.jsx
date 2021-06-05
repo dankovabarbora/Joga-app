@@ -3,40 +3,40 @@ import './studiodetail.css';
 
 export const StudioDetail = () => {
   return (
-    <section class="oneStudio">
-      <div class="oneStudio__div">
-        <h1>YOGA &amp; ART</h1>
-        <div class="oneResult__photogallery">
-          <div class="oneResult__photos">
+    <section className="oneStudio">
+      <div className="oneStudio__div">
+        <h1 className="oneStudio__title">YOGA &amp; ART</h1>
+        <div className="oneResult__photogallery">
+          <div className="oneResult__photos">
             <img
-              class="oneResult__onePhoto"
-              src="../assets/ilustracni_foto_studio.jpg"
+              className="oneResult__onePhoto"
+              src="/assets/ilustracni_foto_studio.jpg"
               alt=""
             />
             <img
-              class="oneResult__onePhoto"
-              src="../assets/ilustracni_foto_studio.jpg"
+              className="oneResult__onePhoto"
+              src="/assets/ilustracni_foto_studio.jpg"
               alt=""
             />
             <img
-              class="oneResult__onePhoto"
-              src="../assets/ilustracni_foto_studio.jpg"
+              className="oneResult__onePhoto"
+              src="/assets/ilustracni_foto_studio.jpg"
               alt=""
             />
             <img
-              class="oneResult__onePhoto"
-              src="../assets/ilustracni_foto_studio.jpg"
+              className="oneResult__onePhoto"
+              src="/assets/ilustracni_foto_studio.jpg"
               alt=""
             />
             <img
-              class="oneResult__onePhoto"
-              src="./img/calder-b-aHll22KZdJE-unsplash.jpg"
+              className="oneResult__onePhoto"
+              src="/assets/ilustracni_foto_studio.jpg"
               alt=""
             />
           </div>
         </div>
-        <div class="oneStudio__details">
-          <p class="oneStudio__description">
+        <div className="oneStudio__details">
+          <p className="oneStudio__description">
             Jóga představuje jeden z nejstarších a nejdokonalejších systémů pro
             lidské zdraví, které chápeme ve třech rovinách – tělesné, duševní a
             duchovní. YOGA &amp; ART je unikátní prostor zaštiťující projekt v
@@ -46,37 +46,41 @@ export const StudioDetail = () => {
             a přírodě. To vše v krásném prostředí objektu Marjánka na pražském
             Břevnově.
           </p>
-          <div class="oneStudio__links">
+          <div className="oneStudio__links">
             <div>
-              <img class="oneStudio__icons" src="../assets/ikonka.svg" alt="" />
+              <img
+                className="oneStudio__icons"
+                src="/assets/ikonka.svg"
+                alt=""
+              />
               <a href="#">Webové stránky</a>
             </div>
             <div>
               <img
-                class="oneStudio__icons"
-                src="../assets/facebook.svg"
+                className="oneStudio__icons"
+                src="/assets/facebook.svg"
                 alt=""
               />
               <a href="#">Facebook</a>
             </div>
             <div>
               <img
-                class="oneStudio__icons"
-                src="../assets/instagram.svg"
+                className="oneStudio__icons"
+                src="/assets/instagram.svg"
                 alt=""
               />
               <a href="#">Instagram</a>
             </div>
             <div>
               <img
-                class="oneStudio__icons"
-                src="../assets/address.svg"
+                className="oneStudio__icons"
+                src="/assets/address.svg"
                 alt=""
               />
               <a href="#">Adresa</a>
             </div>
             <div>
-              <img class="oneStudio__icons" src="../assets/mail.svg" alt="" />
+              <img className="oneStudio__icons" src="/assets/mail.svg" alt="" />
               <a href="#">E-mail</a>
             </div>
           </div>

@@ -10,7 +10,6 @@
 .studios__gallery h1 {
   font-family: 'Amatic SC', cursive;
   font-size: 2rem;
-  
 }
 
 .studios__list {
@@ -43,4 +42,23 @@
   width: 90%;
   margin: 10px;
   border-radius: 5px;
+}
+
+@media (min-width: 640px) {
+  .studios__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .studio__card {
+    width: 35%;
+    margin: 20px 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .studio__card {
+    width: 30%;
+  }
 }
