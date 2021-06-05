@@ -17,3 +17,7 @@ body {
   margin: 0;
   min-width: 280px;
 }
+
+img {
+  max-width: 100%;
+}

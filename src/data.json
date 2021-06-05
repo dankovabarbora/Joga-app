@@ -1,9 +1,9 @@
 {
   "Studio": [
     {
-      "nazev": "YOGA & ART",
+      "name": "YOGA & ART",
       "id": "yogaart",
-      "foto": "https://yoga-art.cz/wp-content/uploads/2017/11/Studio-7-e1511427811624-1024x640.jpg; https://yoga-art.cz/wp-content/uploads/2017/11/Studio-5-1024x670.jpg; https://yoga-art.cz/wp-content/uploads/2017/11/Studio-1-1024x683.jpg",
+      "photo": "https://yoga-art.cz/wp-content/uploads/2017/11/Studio-7-e1511427811624-1024x640.jpg; https://yoga-art.cz/wp-content/uploads/2017/11/Studio-5-1024x670.jpg; https://yoga-art.cz/wp-content/uploads/2017/11/Studio-1-1024x683.jpg",
       "position": "50.08444390152855, 14.374867240325589",
       "address": "Bělohorská 262/35, 169 00 Praha 6-Břevnov",
       "website": "https://yoga-art.cz",
@@ -14,9 +14,9 @@
       "description": "Jóga představuje jeden z nejstarších a nejdokonalejších systémů pro lidské zdraví, které chápeme ve třech rovinách – tělesné, duševní a duchovní. YOGA & ART je unikátní prostor zaštiťující projekt v rámci pořádání jógových aktivit pro všechny generace. Záměrem je kombinace osvědčených pohybových cvičení s uměleckým rozvojem osobnosti, kreativity, sociálního cítění a úcty k sobě samému, okolí a přírodě. To vše v krásném prostředí objektu Marjánka na pražském Břevnově."
     },
     {
-      "nazev": "Studio Karma Yoga",
+      "name": "Studio Karma Yoga",
       "id": "karma-yoga",
-      "foto": "https://www.karmayoga.cz/data/2020/01/13/20/1920x_/obchudekarma.png; https://www.karmayoga.cz/data/2020/01/13/20/1920x_/velkysalkarmayoga.png; https://www.karmayoga.cz/data/2020/01/13/20/1920x_/ordinaceakupunktura.png",
+      "photo": "https://www.karmayoga.cz/data/2020/01/13/20/1920x_/obchudekarma.png; https://www.karmayoga.cz/data/2020/01/13/20/1920x_/velkysalkarmayoga.png; https://www.karmayoga.cz/data/2020/01/13/20/1920x_/ordinaceakupunktura.png",
       "position": "50.07655445310676, 14.442407355328957",
       "address": "Korunní 25, 120 00 Praha 2-Vinohrady",
       "website": "https://www.karmayoga.cz",
@@ -27,12 +27,12 @@
       "description": "Jógové studio v srdci Vinohrad. Nabízíme více než padesát lekcí jógy týdně, buď v otevřených hodinách nebo v uzavřených kurzech. Veškeré info na našem webu: http://www.karmayoga.cz, pro rezervace a komplet rozvrh rezervační systém: https://karmayoga.isportsystem.cz Užijte si s námi krásný víkend plný jógy a odpočinku nebo přijďte do studia na workshop.Vedeme také akreditovanou školu jógy pro budoucí lektory https://www.karmaskolajogy.cz. Studio naleznete na rohu Budečské a Korunní ulice se vstupem z Korunní 25, 2 minutky chůze od Nám. Míru a na tram zastávce Šumavská (tram 16 a 10)."
     },
     {
-      "nazev": "YOGAME",
+      "name": "YOGAME",
       "id": "yogame",
-      "foto": "https://scontent-prg1-1.xx.fbcdn.net/v/t1.18169-9/30824_115193478519533_6448961_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=973b4a&_nc_ohc=M2tBMsjMRo8AX_nfc4j&_nc_ht=scontent-prg1-1.xx&oh=70846b6a9905234235b66aaa009b8116&oe=60D1A237;https://scontent-prg1-1.xx.fbcdn.net/v/t1.18169-9/30824 _115193481852866_5123820_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=973b4a&_nc_ohc=Ixt2Y-xHP3oAX8vY8Vu&_nc_ht=scontent-prg1-1.xx&oh=78342b95c85beb46af19fcb3618a5d85&oe=60D13CD8; https://scontent-prg1-1.xx.fbcdn.net/v/t1.18169-9/30824_115193488519532_6169033_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=973b4a&_nc_ohc=z61u9X48TwsAX_Xt1LT&_nc_ht=scontent-prg1-1.xx&oh=aef5ae632831ecec18d10e9fb42ff8d9&oe=60D15E68",
+      "photo": "https://scontent-prg1-1.xx.fbcdn.net/v/t1.18169-9/30824_115193478519533_6448961_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=973b4a&_nc_ohc=M2tBMsjMRo8AX_nfc4j&_nc_ht=scontent-prg1-1.xx&oh=70846b6a9905234235b66aaa009b8116&oe=60D1A237;https://scontent-prg1-1.xx.fbcdn.net/v/t1.18169-9/30824 _115193481852866_5123820_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=973b4a&_nc_ohc=Ixt2Y-xHP3oAX8vY8Vu&_nc_ht=scontent-prg1-1.xx&oh=78342b95c85beb46af19fcb3618a5d85&oe=60D13CD8; https://scontent-prg1-1.xx.fbcdn.net/v/t1.18169-9/30824_115193488519532_6169033_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=973b4a&_nc_ohc=z61u9X48TwsAX_Xt1LT&_nc_ht=scontent-prg1-1.xx&oh=aef5ae632831ecec18d10e9fb42ff8d9&oe=60D15E68",
       "position": "50.08327837355249, 14.417644669363135",
       "address": "Národní 340/21, 101 00 Staré Město",
-      "website": "https://www.yogame.cz/",
+      "website": null,
       "phone": "+420 734 321 431",
       "email": "ahoj@yogame.cz",
       "facebook": "https://www.facebook.com/Yogamestudio/",
@@ -40,9 +40,9 @@
       "description": null
     },
     {
-      "nazev": "Jógovna",
+      "name": "Jógovna",
       "id": "jogovna",
-      "foto": "http://jogovna.cz/wp-content/uploads/2020/12/F70E90A3-90BA-4EA8-A8D0-A4AE1E519D38.jpg; http://jogovna.cz/wp-content/uploads/2020/12/1DDA75DE-76AA-4D6C-AECA-B361B1A8B2D8.jpg; http://jogovna.cz/wp-content/uploads/2020/12/4352F31E-CC8C-4279-AACE-E43522D4E1F1.jpg; http://jogovna.cz/wp-content/uploads/2020/12/E9BEA41F-F83D-4B04-A442-DD12424090BF.jpg",
+      "photo": "http://jogovna.cz/wp-content/uploads/2020/12/F70E90A3-90BA-4EA8-A8D0-A4AE1E519D38.jpg; http://jogovna.cz/wp-content/uploads/2020/12/1DDA75DE-76AA-4D6C-AECA-B361B1A8B2D8.jpg; http://jogovna.cz/wp-content/uploads/2020/12/4352F31E-CC8C-4279-AACE-E43522D4E1F1.jpg; http://jogovna.cz/wp-content/uploads/2020/12/E9BEA41F-F83D-4B04-A442-DD12424090BF.jpg",
       "position": "50.084864114804574, 14.427460594498283",
       "address": "Jindřišská 901, 110 00 Nové Město",
       "website": "http://jogovna.cz",
@@ -53,9 +53,9 @@
       "description": "Jógovna je butikovým jógovým studiem v samotném centru Prahy, které nabízí jógové lekce vybraných lektorů, butik lokálních značek, posezení u velkého rukodělného stolu či v designových křeslech s polštářky designérky Lindy Vrňákové (LIV) s knihou s jógovou tématikou, kterou si můžete zapůjčit v bohaté knihovně studia. Jógovna je kreativním místem tvořená s citem pro detail ve spolupráci nejen s Milanem Konečným (KONstudio), ale také s  mladými výtvarníky, s Eliškou Konečnou a Michaelem Noskem, kteří stojí například za autorskou malbou stropu v sále studia, který je pro Jógovnu typický. Jógovna je prostorem nejen pro vaší jógovou praxi, ale třeba k coworkingu po ranní lekci či k posezení a sdílení s přáteli. Naším přáním je, aby jste mohli zanechat nejen boty, ale i starosti za vstupními dveřmi, a tak se snažíme, aby již při vstupu do studia mohla začít vaše niterní praxe. Třeba tím, že v Jógovně pro vás vybíráme dle ročního období a dalších vlivů esenciální oleje české výroby (KANTU), které tvoří aromaterapii po celém studiu. Od vstupního prostoru, přes recepci i šatny až po sál. Věříme, že se tak můžete sami na sebe naladit již při prvním nadechnutí po vstupu a vypustit napětí již při prvním výdechu po zutí bot. V šatnách je pro vás připravena kosmetika od značky L'OCCITANE a v sále pak od značky KANTU nabízíme Yoga Mist spreje, které provoní jednou ze tří nabízených vůní jógamatku a připraví jí tak k vaší osobní praxi. Jógovna je zázemím tradice Jivamukti jógy v Praze."
     },
     {
-      "nazev": "Jemný svět",
+      "name": "Jemný svět",
       "id": "jemny-svet",
-      "foto": "https://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12916988_985144381553794_6909387534785088627_o.jpg?_nc_cat=110&ccb=1-3&_nc_sid=973b4a&_nc_ohc=XeLltTZ9bycAX8Hg8k_&_nc_ht=scontent-prg1-1.xx&oh=8af0a78c7704b262f6fb2b052082a8c6&oe=60D5B88D;h ttps://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12487159_937484306319802_8991239958730531383_o.jpg?_nc_cat=101&ccb=1-3&_nc_sid=973b4a&_nc_ohc=iEhYSfOSB_cAX_bQ-8g&_nc_ht=scontent-prg1-1.xx&oh=6b51ee11a63805a216b4f6d461fcb6cd&oe=60D24B36;https://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12977135_985144254887140_8547390234295439374_o.jpg?_nc_cat=109&ccb=1-3&_nc_sid=973b4a&_nc_ohc=63P5btptr4MAX9nBU_0&_nc_ht=scontent-prg1-1.xx&oh=7a51b82f0bd40c3d68d22789096adc55&oe=60D33306;h  ttps://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12525450_937484302986469_4468948883638643193_o.jpg?_nc_cat=100&ccb=1-3&_nc_sid=973b4a&_nc_ohc=PpoUWDUvft4AX_W1dFh&_nc_ht=scontent-prg1-1.xx&oh=1293edda341d1c97624a889cdcb34cd3&oe=60D3D8E9",
+      "photo": "https://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12916988_985144381553794_6909387534785088627_o.jpg?_nc_cat=110&ccb=1-3&_nc_sid=973b4a&_nc_ohc=XeLltTZ9bycAX8Hg8k_&_nc_ht=scontent-prg1-1.xx&oh=8af0a78c7704b262f6fb2b052082a8c6&oe=60D5B88D;h ttps://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12487159_937484306319802_8991239958730531383_o.jpg?_nc_cat=101&ccb=1-3&_nc_sid=973b4a&_nc_ohc=iEhYSfOSB_cAX_bQ-8g&_nc_ht=scontent-prg1-1.xx&oh=6b51ee11a63805a216b4f6d461fcb6cd&oe=60D24B36;https://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12977135_985144254887140_8547390234295439374_o.jpg?_nc_cat=109&ccb=1-3&_nc_sid=973b4a&_nc_ohc=63P5btptr4MAX9nBU_0&_nc_ht=scontent-prg1-1.xx&oh=7a51b82f0bd40c3d68d22789096adc55&oe=60D33306;h  ttps://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12525450_937484302986469_4468948883638643193_o.jpg?_nc_cat=100&ccb=1-3&_nc_sid=973b4a&_nc_ohc=PpoUWDUvft4AX_W1dFh&_nc_ht=scontent-prg1-1.xx&oh=1293edda341d1c97624a889cdcb34cd3&oe=60D3D8E9",
       "position": "50.08113424983084, 14.445159333691818",
       "address": "Chopinova 1529, 120 00 Praha 2-Vinohrady",
       "website": "https://www.jemnysvet.cz",
@@ -66,9 +66,9 @@
       "description": "Místo pro jógu, relaxaci, sebepoznávání a osobní rozvoj na pražských Vinohradech"
     },
     {
-      "nazev": "Jóga Letná",
+      "name": "Jóga Letná",
       "id": "joga-letna",
-      "foto": "https://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12672191_1541008306197931_7635883452078870087_o.jpg?_nc_cat=106&ccb=1-3&_nc_sid=973b4a&_nc_ohc=unoXfKA5R-0AX8eMffX&_nc_oc=AQlEG2qrtZEngQfDyvL2BdWfQxbLETFypG7yxItyzZPmG323g8cPDmweG_fm7dUQhm8&_nc_ht=scontent-prg1-1.xx&oh=bac096aa3c881df5c6fef552e035f958&oe=60D49AE0;h ttps://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12646782_1541008226197939_1235012883181429439_o.jpg?_nc_cat=111&ccb=1-3&_nc_sid=973b4a&_nc_ohc=vv0eOjNMgPUAX8wz_Go&_nc_ht=scontent-prg1-1.xx&oh=df547d175fcf39dd6a6977c13d6902bb&oe=60D2F6D4;https://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12657951_1541008252864603_1311500570018821241_o.jpg?_nc_cat=108&ccb=1-3&_nc_sid=973b4a&_nc_ohc=fJiNkubJB2QAX-APN5y&_nc_ht=scontent-prg1-1.xx&oh=5342221a6300ca17b51297a4d4bf999c&oe=60D43094 ; https://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12657951_1541008252864603_1311500570018821241_o.jpg?_nc_cat=108&ccb=1-3&_nc_sid=973b4a&_nc_ohc=fJiNkubJB2QAX-APN5y&_nc_ht=scontent-prg1-1.xx&oh=5342221a6300ca17b51297a4d4bf999c&oe=60D43094",
+      "photo": "https://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12672191_1541008306197931_7635883452078870087_o.jpg?_nc_cat=106&ccb=1-3&_nc_sid=973b4a&_nc_ohc=unoXfKA5R-0AX8eMffX&_nc_oc=AQlEG2qrtZEngQfDyvL2BdWfQxbLETFypG7yxItyzZPmG323g8cPDmweG_fm7dUQhm8&_nc_ht=scontent-prg1-1.xx&oh=bac096aa3c881df5c6fef552e035f958&oe=60D49AE0;h ttps://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12646782_1541008226197939_1235012883181429439_o.jpg?_nc_cat=111&ccb=1-3&_nc_sid=973b4a&_nc_ohc=vv0eOjNMgPUAX8wz_Go&_nc_ht=scontent-prg1-1.xx&oh=df547d175fcf39dd6a6977c13d6902bb&oe=60D2F6D4;https://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12657951_1541008252864603_1311500570018821241_o.jpg?_nc_cat=108&ccb=1-3&_nc_sid=973b4a&_nc_ohc=fJiNkubJB2QAX-APN5y&_nc_ht=scontent-prg1-1.xx&oh=5342221a6300ca17b51297a4d4bf999c&oe=60D43094 ; https://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/12657951_1541008252864603_1311500570018821241_o.jpg?_nc_cat=108&ccb=1-3&_nc_sid=973b4a&_nc_ohc=fJiNkubJB2QAX-APN5y&_nc_ht=scontent-prg1-1.xx&oh=5342221a6300ca17b51297a4d4bf999c&oe=60D43094",
       "position": "50.10032001080812, 14.42580172083444",
       "address": "Dobrovského 666, 170 00 Praha 7-Holešovice",
       "website": "https://www.jogaletna.cz",
@@ -79,9 +79,9 @@
       "description": "Je to jednoduché. Navštivte nás a poznáte sami. Slova nestačí. Útulný, moderní, intimní prostor pro různorodé aktivity. Kousek zenu v ruchu tepající Letné, mezi Technickým muzeem a Letenským náměstím."
     },
     {
-      "nazev": "Jóga studio Krymská",
+      "name": "Jóga studio Krymská",
       "id": "joga-krymska",
-      "foto": "https://scontent-prg1-1.xx.fbcdn.net/v/t1.18169-9/11082613_465464933605726_6541674422675720240_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=973b4a&_nc_ohc=EzWYv-svunEAX8OQC1c&_nc_ht=scontent-prg1-1.xx&oh=d734fb7c5d5ea3a6e3002d9e45650a4d&oe=60D51FF2;https://scontent-prg1-1.xx.fbcdn.net/v/t1.18169-9/11136627_465464896939063_7652137833541168089_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=973b4a&_nc_ohc=NTmIqD8wpiIAX-vL_YL&_nc_ht=scontent-prg1-1.xx&oh=fcdb9bbdf60cc72bb4aeac43e1b62283&oe=60D204E1;h  ttps://scontent-prg1-1.xx.fbcdn.net/v/t1.18169-9/11102996_465464930272393_3176848418910550919_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=973b4a&_nc_ohc=Pxob9vHwf_sAX9vBrqG&_nc_ht=scontent-prg1-1.xx&oh=20897bdb98a19d81dbd4ff93a23ab9fc&oe=60D2BDC8",
+      "photo": "https://scontent-prg1-1.xx.fbcdn.net/v/t1.18169-9/11082613_465464933605726_6541674422675720240_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=973b4a&_nc_ohc=EzWYv-svunEAX8OQC1c&_nc_ht=scontent-prg1-1.xx&oh=d734fb7c5d5ea3a6e3002d9e45650a4d&oe=60D51FF2;https://scontent-prg1-1.xx.fbcdn.net/v/t1.18169-9/11136627_465464896939063_7652137833541168089_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=973b4a&_nc_ohc=NTmIqD8wpiIAX-vL_YL&_nc_ht=scontent-prg1-1.xx&oh=fcdb9bbdf60cc72bb4aeac43e1b62283&oe=60D204E1;h  ttps://scontent-prg1-1.xx.fbcdn.net/v/t1.18169-9/11102996_465464930272393_3176848418910550919_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=973b4a&_nc_ohc=Pxob9vHwf_sAX9vBrqG&_nc_ht=scontent-prg1-1.xx&oh=20897bdb98a19d81dbd4ff93a23ab9fc&oe=60D2BDC8",
       "position": "50.071413763533606, 14.44941671819845",
       "address": "Krymská 238/18, 101 00 Praha 10-Vršovice",
       "website": "https://www.jogakrymska.cz",
@@ -92,9 +92,9 @@
       "description": null
     },
     {
-      "nazev": "Jóga v denním životě Praha 2",
+      "name": "Jóga v denním životě Praha 2",
       "id": "yoga-daily-life",
-      "foto": "https://scontent-prg1-1.xx.fbcdn.net/v/t1.18169-9/20800099_10155527707798771_7598073085662789210_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=973b4a&_nc_ohc=nmItV61iyaUAX-z-opJ&_nc_ht=scontent-prg1-1.xx&oh=d69beaa05df5a71591f2968b89f06df2&oe=60DB9911",
+      "photo": "https://scontent-prg1-1.xx.fbcdn.net/v/t1.18169-9/20800099_10155527707798771_7598073085662789210_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=973b4a&_nc_ohc=nmItV61iyaUAX-z-opJ&_nc_ht=scontent-prg1-1.xx&oh=d69beaa05df5a71591f2968b89f06df2&oe=60DB9911",
       "position": "50.07774542835454, 14.439073327880772",
       "address": "Blanická 2025, 120 00 Vinohrady",
       "website": "https://joga.cz/jogacentra/hlavni-mesto-praha-4/praha-a-okoli/akce-a-novinky/kurzy-jogy-praha-2",
@@ -105,9 +105,9 @@
       "description": "Český svaz Jóga v denním životě je nezisková organizace, která v České republice reprezentuje celosvětově uznávaný systém Jóga v denním životě. Spolupracuje s mezinárodní organizací International Sri Deep Madhavananda Ashram Fellowship, jež sídlí ve Vídni. Obdobná centra Jógy v denním životě jsou v Rakousku, Německu, Švýcarsku, Maďarsku, Polsku, na Slovensku, v jednotlivých státech bývalé Jugoslávie, Španělsku, Anglii, Austrálii, na Novém Zélandu, v Kanadě, USA, Indii a dalších státech. Český svaz Jóga v denním životě byl založen v roce 1995 a nyní sdružuje, zastřešuje a koordinuje činnost 53 samostatných poboček, menších skupin ve městech a obcích a všech učitelů jógy tohoto systému na území České republiky. Garantuje originalitu, kvalitu a komplexnost systému Jóga v denním životě. Svaz se především věnuje vzdělávací, tělovýchovné, metodické a propagační činnosti v rámci systému Jóga v denním životě. Umožňuje široké veřejnosti - bez ohledu na věk, národnost, náboženství, sociální postavení či zdravotní stav - využívání tohoto systému, který kultivuje lidské zdraví v oblasti tělesné, psychické, sociální a duchovní."
     },
     {
-      "nazev": "YogaKarlin",
+      "name": "YogaKarlin",
       "id": "yoga-karlin",
-      "foto": "https://yogakarlin.cz/wp-content/uploads/2017/08/recepce-1440x0-c-default.jpg; https://yogakarlin.cz/wp-content/uploads/2017/08/young-1440x0-c-default.jpg; https://yogakarlin.cz/wp-content/uploads/2017/12/dámská-šatna-1440x0-c-default.jpg",
+      "photo": "https://yogakarlin.cz/wp-content/uploads/2017/08/recepce-1440x0-c-default.jpg; https://yogakarlin.cz/wp-content/uploads/2017/08/young-1440x0-c-default.jpg; https://yogakarlin.cz/wp-content/uploads/2017/12/dámská-šatna-1440x0-c-default.jpg",
       "position": "50.09319055438868, 14.456588113303452",
       "address": "Březinova 13, 186 00 Karlín",
       "website": "https://yogakarlin.cz",
@@ -118,9 +118,9 @@
       "description": "Naší činností bychom chtěli přispět k vytváření pozitivních změn ve společnosti nejenom šířením informací v oblasti životního stylu, zdraví a osobního rozvoje. Velmi důležitou součástí naší filozofie je přístup ke společenské odpovědnosti, snažíme se proto jít cestou etického, ekologicky i sociálně udržitelného podnikání. Jsme přesvědčeni o tom, že i v podnikání lze zvolit citlivý přístup k těmto otázkám a že i malá firma může výrazně přispět k vytváření harmonického prostředí pro nás pro všechny. Snažíme se chovat zodpovědně a ohleduplně k našemu okolí: ve studiu Yoga Karlín používáme ekologické kosmetické a úklidové prostředky, třídíme odpad, nabízíme pouze veganské jídlo a nápoje, pečlivě vybíráme naše dodavatele a upřednostňujeme lokální zdroje."
     },
     {
-      "nazev": "Aloha joga",
+      "name": "Aloha joga",
       "id": "aloha-joga",
-      "foto": "https://scontent-prg1-1.xx.fbcdn.net/v/t1.6435-9/51184421_2010162129052462_8542399942667272192_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=973b4a&_nc_ohc=-vi4n6ZD4dkAX96Zf89&_nc_ht=scontent-prg1-1.xx&oh=1c07ad2f9cc8fdf1590ce899ae790191&oe=60DA195F; https://scontent-prg1-1.xx.fbcdn.net/v/t1.6435-9/180928506_3933083370093652_4288700652171116035_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=973b4a&_nc_ohc=qHUZs_1_ZvEAX826RRN&_nc_ht=scontent-prg1-1.xx&oh=0ba4dc5de60b575ca37007275e26b1dc&oe=60DBB816; https://scontent-prg1-1.xx.fbcdn.net/v/t1.6435-9/44450129_1873262082742468_8056111165454942208_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=973b4a&_nc_ohc=ZUWavRq4LNIAX9jfEof&_nc_oc=AQm3FD1-5QUlRZmL71OCVaNkcFan0p7IJ-51w0SZQxB-v56m3AfMNoKd5yf9Ex2XexY&_nc_ht=scontent-prg1-1.xx&oh=fbb92a88165e794293a4d8ed24f7dc98&oe=60DBC866",
+      "photo": "https://scontent-prg1-1.xx.fbcdn.net/v/t1.6435-9/51184421_2010162129052462_8542399942667272192_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=973b4a&_nc_ohc=-vi4n6ZD4dkAX96Zf89&_nc_ht=scontent-prg1-1.xx&oh=1c07ad2f9cc8fdf1590ce899ae790191&oe=60DA195F; https://scontent-prg1-1.xx.fbcdn.net/v/t1.6435-9/180928506_3933083370093652_4288700652171116035_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=973b4a&_nc_ohc=qHUZs_1_ZvEAX826RRN&_nc_ht=scontent-prg1-1.xx&oh=0ba4dc5de60b575ca37007275e26b1dc&oe=60DBB816; https://scontent-prg1-1.xx.fbcdn.net/v/t1.6435-9/44450129_1873262082742468_8056111165454942208_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=973b4a&_nc_ohc=ZUWavRq4LNIAX9jfEof&_nc_oc=AQm3FD1-5QUlRZmL71OCVaNkcFan0p7IJ-51w0SZQxB-v56m3AfMNoKd5yf9Ex2XexY&_nc_ht=scontent-prg1-1.xx&oh=fbb92a88165e794293a4d8ed24f7dc98&oe=60DBC866",
       "position": "50.10568007498853, 14.395097306881087",
       "address": "Jugoslávských partyzánů 26, 160 00 Praha 6-Dejvice",
       "website": "https://www.alohajoga.cz",
@@ -144,7 +144,7 @@
       "price": "150 Kč",
       "occupancy": null,
       "reservation": "https://yoga-art.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogaart",
@@ -158,7 +158,7 @@
       "price": "150 Kč",
       "occupancy": null,
       "reservation": "https://yoga-art.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogaart",
@@ -172,7 +172,7 @@
       "price": "150 Kč",
       "occupancy": null,
       "reservation": "https://yoga-art.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogaart",
@@ -186,7 +186,7 @@
       "price": "220 Kč",
       "occupancy": null,
       "reservation": "https://yoga-art.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogaart",
@@ -200,7 +200,7 @@
       "price": "220 Kč",
       "occupancy": null,
       "reservation": "https://yoga-art.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogaart",
@@ -214,7 +214,7 @@
       "price": "220 Kč",
       "occupancy": "full",
       "reservation": "https://yoga-art.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "karma-yoga",
@@ -228,7 +228,7 @@
       "price": "160 Kč",
       "occupancy": null,
       "reservation": "https://karmayoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "karma-yoga",
@@ -242,7 +242,7 @@
       "price": "220 Kč",
       "occupancy": null,
       "reservation": "https://karmayoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "karma-yoga",
@@ -256,7 +256,7 @@
       "price": "160 Kč",
       "occupancy": null,
       "reservation": "https://karmayoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "karma-yoga",
@@ -270,7 +270,7 @@
       "price": "160 Kč",
       "occupancy": "full",
       "reservation": "https://karmayoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "karma-yoga",
@@ -284,7 +284,7 @@
       "price": "250 Kč",
       "occupancy": null,
       "reservation": "https://karmayoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "karma-yoga",
@@ -298,7 +298,7 @@
       "price": "160 Kč",
       "occupancy": null,
       "reservation": "https://karmayoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "karma-yoga",
@@ -312,7 +312,7 @@
       "price": "160 Kč",
       "occupancy": null,
       "reservation": "https://karmayoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "karma-yoga",
@@ -326,7 +326,7 @@
       "price": "160 Kč",
       "occupancy": null,
       "reservation": "https://karmayoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "karma-yoga",
@@ -340,7 +340,7 @@
       "price": "250 Kč",
       "occupancy": "full",
       "reservation": "https://karmayoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "karma-yoga",
@@ -354,7 +354,7 @@
       "price": "160 Kč",
       "occupancy": "full",
       "reservation": "https://karmayoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "karma-yoga",
@@ -368,7 +368,7 @@
       "price": "160 Kč",
       "occupancy": "full",
       "reservation": "https://karmayoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogame",
@@ -382,7 +382,7 @@
       "price": "220 Kč",
       "occupancy": null,
       "reservation": "https://www.yogame.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogame",
@@ -396,7 +396,7 @@
       "price": "220 Kč",
       "occupancy": null,
       "reservation": "https://www.yogame.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogame",
@@ -410,7 +410,7 @@
       "price": "220 Kč",
       "occupancy": null,
       "reservation": "https://www.yogame.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogame",
@@ -424,7 +424,7 @@
       "price": "220 Kč",
       "occupancy": "full",
       "reservation": "https://www.yogame.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogame",
@@ -438,7 +438,7 @@
       "price": "270 Kč",
       "occupancy": null,
       "reservation": "https://www.yogame.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogame",
@@ -452,7 +452,7 @@
       "price": "250 Kč",
       "occupancy": null,
       "reservation": "https://www.yogame.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogame",
@@ -466,7 +466,7 @@
       "price": "270 Kč",
       "occupancy": null,
       "reservation": "https://www.yogame.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogame",
@@ -480,7 +480,7 @@
       "price": "270 Kč",
       "occupancy": null,
       "reservation": "https://www.yogame.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogame",
@@ -494,7 +494,7 @@
       "price": "270 Kč",
       "occupancy": null,
       "reservation": "https://www.yogame.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogame",
@@ -508,7 +508,7 @@
       "price": "250 Kč",
       "occupancy": "full",
       "reservation": "https://www.yogame.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogame",
@@ -522,7 +522,7 @@
       "price": "250 Kč",
       "occupancy": null,
       "reservation": "https://www.yogame.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogame",
@@ -536,7 +536,7 @@
       "price": "270 Kč",
       "occupancy": null,
       "reservation": "https://www.yogame.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogame",
@@ -550,7 +550,7 @@
       "price": "220 Kč",
       "occupancy": null,
       "reservation": "https://www.yogame.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogame",
@@ -564,7 +564,7 @@
       "price": "220 Kč",
       "occupancy": null,
       "reservation": "https://www.yogame.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yogame",
@@ -578,7 +578,7 @@
       "price": "270 Kč",
       "occupancy": null,
       "reservation": "https://www.yogame.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -592,7 +592,7 @@
       "price": "210 Kč",
       "occupancy": "full",
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -606,7 +606,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -620,7 +620,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -634,7 +634,7 @@
       "price": "250 Kč",
       "occupancy": null,
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -648,7 +648,7 @@
       "price": "250 Kč",
       "occupancy": null,
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -662,7 +662,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -676,7 +676,7 @@
       "price": "230 Kč",
       "occupancy": null,
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -690,7 +690,7 @@
       "price": "250 Kč",
       "occupancy": "full",
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -704,7 +704,7 @@
       "price": "210 Kč",
       "occupancy": "full",
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -718,7 +718,7 @@
       "price": "270 Kč",
       "occupancy": "full",
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -732,7 +732,7 @@
       "price": "230 Kč",
       "occupancy": null,
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -746,7 +746,7 @@
       "price": "270 Kč",
       "occupancy": null,
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -760,7 +760,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -774,7 +774,7 @@
       "price": "270 Kč",
       "occupancy": null,
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -788,7 +788,7 @@
       "price": "230 Kč",
       "occupancy": null,
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -802,7 +802,7 @@
       "price": "230 Kč",
       "occupancy": null,
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jogovna",
@@ -816,7 +816,7 @@
       "price": "270 Kč",
       "occupancy": null,
       "reservation": "https://jogovna.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jemny-svet",
@@ -830,7 +830,7 @@
       "price": "150 Kč",
       "occupancy": "full",
       "reservation": "https://www.jemnysvet.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jemny-svet",
@@ -844,7 +844,7 @@
       "price": "200 Kč",
       "occupancy": null,
       "reservation": "https://www.jemnysvet.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jemny-svet",
@@ -858,7 +858,7 @@
       "price": "200 Kč",
       "occupancy": null,
       "reservation": "https://www.jemnysvet.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jemny-svet",
@@ -872,7 +872,7 @@
       "price": "150 Kč",
       "occupancy": null,
       "reservation": "https://www.jemnysvet.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "jemny-svet",
@@ -886,7 +886,7 @@
       "price": "200 Kč",
       "occupancy": "full",
       "reservation": "https://www.jemnysvet.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-letna",
@@ -900,7 +900,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-letna",
@@ -914,7 +914,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": "50.0971208N, 14.4232436E"
+      "position": "50.0971208N, 14.4232436E"
     },
     {
       "studioId": "joga-letna",
@@ -928,7 +928,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-letna",
@@ -942,7 +942,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-letna",
@@ -956,7 +956,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-letna",
@@ -970,7 +970,7 @@
       "price": "210 Kč",
       "occupancy": "full",
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": "50.0971208N, 14.4232436E"
+      "position": "50.0971208N, 14.4232436E"
     },
     {
       "studioId": "joga-letna",
@@ -984,7 +984,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-letna",
@@ -998,7 +998,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-letna",
@@ -1012,7 +1012,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-letna",
@@ -1026,7 +1026,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": "50.0971208N, 14.4232436E"
+      "position": "50.0971208N, 14.4232436E"
     },
     {
       "studioId": "joga-letna",
@@ -1040,7 +1040,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-letna",
@@ -1054,7 +1054,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-letna",
@@ -1068,7 +1068,7 @@
       "price": "210 Kč",
       "occupancy": "full",
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-letna",
@@ -1082,7 +1082,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": "50.0971208N, 14.4232436E"
+      "position": "50.0971208N, 14.4232436E"
     },
     {
       "studioId": "joga-letna",
@@ -1096,7 +1096,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-letna",
@@ -1110,7 +1110,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://rezervace.jogaletna.cz/sign/in?backlink=60hgm&_fid=xo9y",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-krymska",
@@ -1124,7 +1124,7 @@
       "price": "230 Kč",
       "occupancy": null,
       "reservation": "https://www.jogakrymska.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-krymska",
@@ -1138,7 +1138,7 @@
       "price": "230 Kč",
       "occupancy": null,
       "reservation": "https://www.jogakrymska.cz/rozvrh/",
-      "location": "50.071015188742976, 14.444399682055185"
+      "position": "50.071015188742976, 14.444399682055185"
     },
     {
       "studioId": "joga-krymska",
@@ -1152,7 +1152,7 @@
       "price": "230 Kč",
       "occupancy": null,
       "reservation": "https://www.jogakrymska.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-krymska",
@@ -1166,7 +1166,7 @@
       "price": "230 Kč",
       "occupancy": null,
       "reservation": "https://www.jogakrymska.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "joga-krymska",
@@ -1180,7 +1180,7 @@
       "price": "230 Kč",
       "occupancy": null,
       "reservation": "https://www.jogakrymska.cz/rozvrh/",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1194,7 +1194,7 @@
       "price": "200 Kč",
       "occupancy": null,
       "reservation": "Bez nutné rezervace",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1208,7 +1208,7 @@
       "price": "200 Kč",
       "occupancy": "full",
       "reservation": "Bez nutné rezervace",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1222,7 +1222,7 @@
       "price": null,
       "occupancy": "full",
       "reservation": "Bez nutné rezervace",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1236,7 +1236,7 @@
       "price": null,
       "occupancy": null,
       "reservation": "Bez nutné rezervace",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1250,7 +1250,7 @@
       "price": "540 Kč za celý kurz",
       "occupancy": null,
       "reservation": "https://joga.cz/kurzy-prihlasovani/#/5/3564/personalData",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1264,7 +1264,7 @@
       "price": "540 Kč za celý kurz",
       "occupancy": null,
       "reservation": "https://joga.cz/kurzy-prihlasovani/#/5/3565/personalData",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1278,7 +1278,7 @@
       "price": "200 Kč",
       "occupancy": "full",
       "reservation": "Bez nutné rezervace",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1292,7 +1292,7 @@
       "price": "200 Kč",
       "occupancy": null,
       "reservation": "Bez nutné rezervace",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1306,7 +1306,7 @@
       "price": "200 Kč",
       "occupancy": null,
       "reservation": "Bez nutné rezervace",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1320,7 +1320,7 @@
       "price": "540 Kč za celý kurz",
       "occupancy": null,
       "reservation": "https://joga.cz/kurzy-prihlasovani/#/5/3567/personalData",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1334,7 +1334,7 @@
       "price": "540 Kč za celý kurz",
       "occupancy": null,
       "reservation": "https://joga.cz/kurzy-prihlasovani/#/5/3568/personalData",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1348,7 +1348,7 @@
       "price": "200 Kč",
       "occupancy": "full",
       "reservation": "Bez nutné rezervace",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1362,7 +1362,7 @@
       "price": "200 Kč",
       "occupancy": null,
       "reservation": "Bez nutné rezervace",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1376,7 +1376,7 @@
       "price": "200 Kč",
       "occupancy": null,
       "reservation": "Bez nutné rezervace",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1390,7 +1390,7 @@
       "price": "200 Kč",
       "occupancy": null,
       "reservation": "Bez nutné rezervace",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1404,7 +1404,7 @@
       "price": "200 Kč",
       "occupancy": null,
       "reservation": "Bez nutné rezervace",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1418,7 +1418,7 @@
       "price": "200 Kč",
       "occupancy": "full",
       "reservation": "Bez nutné rezervace",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1432,7 +1432,7 @@
       "price": "200 Kč",
       "occupancy": null,
       "reservation": "Bez nutné rezervace",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-daily-life",
@@ -1446,7 +1446,7 @@
       "price": "540 Kč za celý kurz",
       "occupancy": null,
       "reservation": "https://joga.cz/kurzy-prihlasovani/#/5/3586/personalData",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1460,7 +1460,7 @@
       "price": "229 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1474,7 +1474,7 @@
       "price": "229 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1488,7 +1488,7 @@
       "price": "229 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1502,7 +1502,7 @@
       "price": "229 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1516,7 +1516,7 @@
       "price": "229 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1530,7 +1530,7 @@
       "price": "229 Kč",
       "occupancy": "full",
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1544,7 +1544,7 @@
       "price": "229 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1558,7 +1558,7 @@
       "price": "229 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1572,7 +1572,7 @@
       "price": "209 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1586,7 +1586,7 @@
       "price": "209 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1600,7 +1600,7 @@
       "price": "209 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1614,7 +1614,7 @@
       "price": "229 Kč",
       "occupancy": "full",
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1628,7 +1628,7 @@
       "price": "209 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1642,7 +1642,7 @@
       "price": "209 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1656,7 +1656,7 @@
       "price": "229 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1670,7 +1670,7 @@
       "price": "209 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1684,7 +1684,7 @@
       "price": "209 Kč",
       "occupancy": "full",
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1698,7 +1698,7 @@
       "price": "249 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "yoga-karlin",
@@ -1712,7 +1712,7 @@
       "price": "229 Kč",
       "occupancy": null,
       "reservation": "https://yk.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1726,7 +1726,7 @@
       "price": "190 Kč",
       "occupancy": null,
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1740,7 +1740,7 @@
       "price": "210 Kč",
       "occupancy": "full",
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1754,7 +1754,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1768,7 +1768,7 @@
       "price": "190 Kč",
       "occupancy": null,
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1782,7 +1782,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1796,7 +1796,7 @@
       "price": "240 Kč",
       "occupancy": null,
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1810,7 +1810,7 @@
       "price": "110 Kč",
       "occupancy": "full",
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1824,7 +1824,7 @@
       "price": "190 Kč",
       "occupancy": null,
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1838,7 +1838,7 @@
       "price": "190 Kč",
       "occupancy": null,
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1852,7 +1852,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1866,7 +1866,7 @@
       "price": "210 Kč",
       "occupancy": "full",
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1880,7 +1880,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1894,7 +1894,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1908,7 +1908,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1922,7 +1922,7 @@
       "price": "110 Kč",
       "occupancy": null,
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1936,7 +1936,7 @@
       "price": "190 Kč",
       "occupancy": null,
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1950,7 +1950,7 @@
       "price": "190 Kč",
       "occupancy": "full",
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1964,7 +1964,7 @@
       "price": "210 Kč",
       "occupancy": null,
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1978,7 +1978,7 @@
       "price": "210 Kč",
       "occupancy": "full",
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     },
     {
       "studioId": "aloha-joga",
@@ -1992,7 +1992,7 @@
       "price": "230 Kč",
       "occupancy": "full",
       "reservation": "https://alohajoga.isportsystem.cz",
-      "location": null
+      "position": null
     }
   ]
 }

@@ -11,7 +11,10 @@
 
 .oneResult__photos {
   display: flex;
-  overflow: auto;
+}
+
+.oneResult__photos img {
+  width: 300px;
 }
 
 .oneResult__onePhoto {

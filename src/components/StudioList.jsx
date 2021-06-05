@@ -9,14 +9,14 @@ export const StudioList = () => {
       <h1>Seznam jógových studií</h1>
       <div className="studios__list">
         {data.Studio.map((studio) => {
-          const photos = studio.foto.split(';');
+          const photos = studio.photo.split(';');
 
           return (
             <div key={studio.id} className="studio__card">
-              <Link to="/studio">
-                <h2>{studio.nazev}</h2>
+              <Link to={`/studio/${studio.id}`}>
+                <h2>{studio.name}</h2>
               </Link>
-              <img src={photos[0]} alt="" />
+              <img src={photos[0]} alt="fotka studia" />
             </div>
           );
         })}
