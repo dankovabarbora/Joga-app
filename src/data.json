@@ -133,6 +133,7 @@
   ],
   "Lekce": [
     {
+      "id": 1,
       "studioId": "yogaart",
       "date": "27.5.2021",
       "time": "1899-12-30T07:30:00.000Z",
@@ -147,6 +148,7 @@
       "position": null
     },
     {
+      "id": 2,
       "studioId": "yogaart",
       "date": "26.5.2021",
       "time": "1899-12-30T11:00:00.000Z",
@@ -161,6 +163,7 @@
       "position": null
     },
     {
+      "id": 3,
       "studioId": "yogaart",
       "date": "31.5.2021",
       "time": "1899-12-30T06:55:00.000Z",
@@ -175,6 +178,7 @@
       "position": null
     },
     {
+      "id": 4,
       "studioId": "yogaart",
       "date": "31.5.2021",
       "time": "1899-12-30T16:30:00.000Z",
@@ -189,6 +193,7 @@
       "position": null
     },
     {
+      "id": 5,
       "studioId": "yogaart",
       "date": "31.5.2021",
       "time": "1899-12-30T18:00:00.000Z",
@@ -203,6 +208,7 @@
       "position": null
     },
     {
+      "id": 6,
       "studioId": "yogaart",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T18:00:00.000Z",
@@ -217,6 +223,7 @@
       "position": null
     },
     {
+      "id": 7,
       "studioId": "karma-yoga",
       "date": "24.5.2021",
       "time": "1899-12-30T16:20:00.000Z",
@@ -231,6 +238,7 @@
       "position": null
     },
     {
+      "id": 8,
       "studioId": "karma-yoga",
       "date": "24.5.2021",
       "time": "1899-12-30T05:45:00.000Z",
@@ -245,6 +253,7 @@
       "position": null
     },
     {
+      "id": 9,
       "studioId": "karma-yoga",
       "date": "26.5.2021",
       "time": "1899-12-30T07:10:00.000Z",
@@ -259,6 +268,7 @@
       "position": null
     },
     {
+      "id": 10,
       "studioId": "karma-yoga",
       "date": "26.5.2021",
       "time": "1899-12-30T11:00:00.000Z",
@@ -273,6 +283,7 @@
       "position": null
     },
     {
+      "id": 11,
       "studioId": "karma-yoga",
       "date": "26.5.2021",
       "time": "1899-12-30T16:20:00.000Z",
@@ -287,6 +298,7 @@
       "position": null
     },
     {
+      "id": 12,
       "studioId": "karma-yoga",
       "date": "26.5.2021",
       "time": "1899-12-30T17:40:00.000Z",
@@ -301,6 +313,7 @@
       "position": null
     },
     {
+      "id": 13,
       "studioId": "karma-yoga",
       "date": "27.5.2021",
       "time": "1899-12-30T07:10:00.000Z",
@@ -315,6 +328,7 @@
       "position": null
     },
     {
+      "id": 14,
       "studioId": "karma-yoga",
       "date": "27.5.2021",
       "time": "1899-12-30T15:00:00.000Z",
@@ -329,6 +343,7 @@
       "position": null
     },
     {
+      "id": 15,
       "studioId": "karma-yoga",
       "date": "27.5.2021",
       "time": "1899-12-30T17:35:00.000Z",
@@ -343,6 +358,7 @@
       "position": null
     },
     {
+      "id": 16,
       "studioId": "karma-yoga",
       "date": "28.5.2021",
       "time": "1899-12-30T11:00:00.000Z",
@@ -357,6 +373,7 @@
       "position": null
     },
     {
+      "id": 17,
       "studioId": "karma-yoga",
       "date": "28.5.2021",
       "time": "1899-12-30T15:00:00.000Z",
@@ -371,6 +388,7 @@
       "position": null
     },
     {
+      "id": 18,
       "studioId": "yogame",
       "date": "31.5.2021",
       "time": "1899-12-30T06:00:00.000Z",
@@ -385,6 +403,7 @@
       "position": null
     },
     {
+      "id": 19,
       "studioId": "yogame",
       "date": "31.5.2021",
       "time": "1899-12-30T07:30:00.000Z",
@@ -399,6 +418,7 @@
       "position": null
     },
     {
+      "id": 20,
       "studioId": "yogame",
       "date": "31.5.2021",
       "time": "1899-12-30T11:00:00.000Z",
@@ -413,6 +433,7 @@
       "position": null
     },
     {
+      "id": 21,
       "studioId": "yogame",
       "date": "31.5.2021",
       "time": "1899-12-30T15:15:00.000Z",
@@ -427,6 +448,7 @@
       "position": null
     },
     {
+      "id": 22,
       "studioId": "yogame",
       "date": "31.5.2021",
       "time": "1899-12-30T18:00:00.000Z",
@@ -441,6 +463,7 @@
       "position": null
     },
     {
+      "id": 23,
       "studioId": "yogame",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T06:00:00.000Z",
@@ -455,6 +478,7 @@
       "position": null
     },
     {
+      "id": 24,
       "studioId": "yogame",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T09:00:00.000Z",
@@ -469,6 +493,7 @@
       "position": null
     },
     {
+      "id": 25,
       "studioId": "yogame",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T18:10:00.000Z",
@@ -483,6 +508,7 @@
       "position": null
     },
     {
+      "id": 26,
       "studioId": "yogame",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T09:00:00.000Z",
@@ -497,6 +523,7 @@
       "position": null
     },
     {
+      "id": 27,
       "studioId": "yogame",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T16:30:00.000Z",
@@ -511,6 +538,7 @@
       "position": null
     },
     {
+      "id": 28,
       "studioId": "yogame",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T06:00:00.000Z",
@@ -525,6 +553,7 @@
       "position": null
     },
     {
+      "id": 29,
       "studioId": "yogame",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T18:00:00.000Z",
@@ -539,6 +568,7 @@
       "position": null
     },
     {
+      "id": 30,
       "studioId": "yogame",
       "date": "2021-04-05T22:00:00.000Z",
       "time": "1899-12-30T07:30:00.000Z",
@@ -553,6 +583,7 @@
       "position": null
     },
     {
+      "id": 31,
       "studioId": "yogame",
       "date": "2021-04-05T22:00:00.000Z",
       "time": "1899-12-30T11:00:00.000Z",
@@ -567,6 +598,7 @@
       "position": null
     },
     {
+      "id": 32,
       "studioId": "yogame",
       "date": "2021-04-05T22:00:00.000Z",
       "time": "1899-12-30T17:00:00.000Z",
@@ -581,6 +613,7 @@
       "position": null
     },
     {
+      "id": 33,
       "studioId": "jogovna",
       "date": "31.5.2021",
       "time": "1899-12-30T05:50:00.000Z",
@@ -595,6 +628,7 @@
       "position": null
     },
     {
+      "id": 34,
       "studioId": "jogovna",
       "date": "31.5.2021",
       "time": "1899-12-30T07:05:00.000Z",
@@ -609,6 +643,7 @@
       "position": null
     },
     {
+      "id": 35,
       "studioId": "jogovna",
       "date": "31.5.2021",
       "time": "1899-12-30T11:00:00.000Z",
@@ -623,6 +658,7 @@
       "position": null
     },
     {
+      "id": 36,
       "studioId": "jogovna",
       "date": "31.5.2021",
       "time": "1899-12-30T15:30:00.000Z",
@@ -637,6 +673,7 @@
       "position": null
     },
     {
+      "id": 37,
       "studioId": "jogovna",
       "date": "31.5.2021",
       "time": "1899-12-30T17:00:00.000Z",
@@ -651,6 +688,7 @@
       "position": null
     },
     {
+      "id": 38,
       "studioId": "jogovna",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T07:05:00.000Z",
@@ -665,6 +703,7 @@
       "position": null
     },
     {
+      "id": 39,
       "studioId": "jogovna",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T11:00:00.000Z",
@@ -679,6 +718,7 @@
       "position": null
     },
     {
+      "id": 40,
       "studioId": "jogovna",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T16:30:00.000Z",
@@ -693,6 +733,7 @@
       "position": null
     },
     {
+      "id": 41,
       "studioId": "jogovna",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T07:05:00.000Z",
@@ -707,6 +748,7 @@
       "position": null
     },
     {
+      "id": 42,
       "studioId": "jogovna",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T15:30:00.000Z",
@@ -721,6 +763,7 @@
       "position": null
     },
     {
+      "id": 43,
       "studioId": "jogovna",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T11:00:00.000Z",
@@ -735,6 +778,7 @@
       "position": null
     },
     {
+      "id": 44,
       "studioId": "jogovna",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T17:15:00.000Z",
@@ -749,6 +793,7 @@
       "position": null
     },
     {
+      "id": 45,
       "studioId": "jogovna",
       "date": "2021-04-05T22:00:00.000Z",
       "time": "1899-12-30T07:05:00.000Z",
@@ -763,6 +808,7 @@
       "position": null
     },
     {
+      "id": 46,
       "studioId": "jogovna",
       "date": "2021-04-05T22:00:00.000Z",
       "time": "1899-12-30T17:15:00.000Z",
@@ -777,6 +823,7 @@
       "position": null
     },
     {
+      "id": 47,
       "studioId": "jogovna",
       "date": "2021-05-05T22:00:00.000Z",
       "time": "1899-12-30T09:00:00.000Z",
@@ -791,6 +838,7 @@
       "position": null
     },
     {
+      "id": 48,
       "studioId": "jogovna",
       "date": "2021-06-05T22:00:00.000Z",
       "time": "1899-12-30T09:00:00.000Z",
@@ -805,6 +853,7 @@
       "position": null
     },
     {
+      "id": 49,
       "studioId": "jogovna",
       "date": "2021-06-05T22:00:00.000Z",
       "time": "1899-12-30T17:30:00.000Z",
@@ -819,6 +868,7 @@
       "position": null
     },
     {
+      "id": 50,
       "studioId": "jemny-svet",
       "date": "31.5.2021",
       "time": "1899-12-30T15:45:00.000Z",
@@ -833,6 +883,7 @@
       "position": null
     },
     {
+      "id": 51,
       "studioId": "jemny-svet",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T18:15:00.000Z",
@@ -847,6 +898,7 @@
       "position": null
     },
     {
+      "id": 52,
       "studioId": "jemny-svet",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T17:30:00.000Z",
@@ -861,6 +913,7 @@
       "position": null
     },
     {
+      "id": 53,
       "studioId": "jemny-svet",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T08:00:00.000Z",
@@ -875,6 +928,7 @@
       "position": null
     },
     {
+      "id": 54,
       "studioId": "jemny-svet",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T16:00:00.000Z",
@@ -889,6 +943,7 @@
       "position": null
     },
     {
+      "id": 55,
       "studioId": "joga-letna",
       "date": "31.5.2021",
       "time": "1899-12-30T06:00:00.000Z",
@@ -903,6 +958,7 @@
       "position": null
     },
     {
+      "id": 56,
       "studioId": "joga-letna",
       "date": "31.5.2021",
       "time": "1899-12-30T16:30:00.000Z",
@@ -917,6 +973,7 @@
       "position": "50.0971208N, 14.4232436E"
     },
     {
+      "id": 57,
       "studioId": "joga-letna",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T06:00:00.000Z",
@@ -931,6 +988,7 @@
       "position": null
     },
     {
+      "id": 58,
       "studioId": "joga-letna",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T07:15:00.000Z",
@@ -945,6 +1003,7 @@
       "position": null
     },
     {
+      "id": 59,
       "studioId": "joga-letna",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T11:00:00.000Z",
@@ -959,6 +1018,7 @@
       "position": null
     },
     {
+      "id": 60,
       "studioId": "joga-letna",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T16:30:00.000Z",
@@ -973,6 +1033,7 @@
       "position": "50.0971208N, 14.4232436E"
     },
     {
+      "id": 61,
       "studioId": "joga-letna",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T16:30:00.000Z",
@@ -987,6 +1048,7 @@
       "position": null
     },
     {
+      "id": 62,
       "studioId": "joga-letna",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T11:00:00.000Z",
@@ -1001,6 +1063,7 @@
       "position": null
     },
     {
+      "id": 63,
       "studioId": "joga-letna",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T19:10:00.000Z",
@@ -1015,6 +1078,7 @@
       "position": null
     },
     {
+      "id": 64,
       "studioId": "joga-letna",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T06:30:00.000Z",
@@ -1029,6 +1093,7 @@
       "position": "50.0971208N, 14.4232436E"
     },
     {
+      "id": 65,
       "studioId": "joga-letna",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T16:30:00.000Z",
@@ -1043,6 +1108,7 @@
       "position": null
     },
     {
+      "id": 66,
       "studioId": "joga-letna",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T17:50:00.000Z",
@@ -1057,6 +1123,7 @@
       "position": null
     },
     {
+      "id": 67,
       "studioId": "joga-letna",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T19:10:00.000Z",
@@ -1071,6 +1138,7 @@
       "position": null
     },
     {
+      "id": 68,
       "studioId": "joga-letna",
       "date": "2021-04-05T22:00:00.000Z",
       "time": "1899-12-30T06:30:00.000Z",
@@ -1085,6 +1153,7 @@
       "position": "50.0971208N, 14.4232436E"
     },
     {
+      "id": 69,
       "studioId": "joga-letna",
       "date": "2021-04-05T22:00:00.000Z",
       "time": "1899-12-30T11:00:00.000Z",
@@ -1099,6 +1168,7 @@
       "position": null
     },
     {
+      "id": 70,
       "studioId": "joga-letna",
       "date": "2021-06-05T22:00:00.000Z",
       "time": "1899-12-30T18:00:00.000Z",
@@ -1113,6 +1183,7 @@
       "position": null
     },
     {
+      "id": 71,
       "studioId": "joga-krymska",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T15:15:00.000Z",
@@ -1127,6 +1198,7 @@
       "position": null
     },
     {
+      "id": 72,
       "studioId": "joga-krymska",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T16:45:00.000Z",
@@ -1141,6 +1213,7 @@
       "position": "50.071015188742976, 14.444399682055185"
     },
     {
+      "id": 73,
       "studioId": "joga-krymska",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T16:45:00.000Z",
@@ -1155,6 +1228,7 @@
       "position": null
     },
     {
+      "id": 74,
       "studioId": "joga-krymska",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T18:15:00.000Z",
@@ -1169,6 +1243,7 @@
       "position": null
     },
     {
+      "id": 75,
       "studioId": "joga-krymska",
       "date": "2021-07-05T22:00:00.000Z",
       "time": "1899-12-30T18:15:00.000Z",
@@ -1183,6 +1258,7 @@
       "position": null
     },
     {
+      "id": 76,
       "studioId": "yoga-daily-life",
       "date": "31.5.2021",
       "time": "1899-12-30T09:00:00.000Z",
@@ -1197,6 +1273,7 @@
       "position": null
     },
     {
+      "id": 77,
       "studioId": "yoga-daily-life",
       "date": "31.5.2021",
       "time": "1899-12-30T10:00:00.000Z",
@@ -1211,6 +1288,7 @@
       "position": null
     },
     {
+      "id": 78,
       "studioId": "yoga-daily-life",
       "date": "31.5.2021",
       "time": "1899-12-30T16:00:00.000Z",
@@ -1225,6 +1303,7 @@
       "position": null
     },
     {
+      "id": 79,
       "studioId": "yoga-daily-life",
       "date": "31.5.2021",
       "time": "1899-12-30T16:30:00.000Z",
@@ -1239,6 +1318,7 @@
       "position": null
     },
     {
+      "id": 80,
       "studioId": "yoga-daily-life",
       "date": "31.5.2021",
       "time": "1899-12-30T17:45:00.000Z",
@@ -1253,6 +1333,7 @@
       "position": null
     },
     {
+      "id": 81,
       "studioId": "yoga-daily-life",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T06:45:00.000Z",
@@ -1267,6 +1348,7 @@
       "position": null
     },
     {
+      "id": 82,
       "studioId": "yoga-daily-life",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T07:30:00.000Z",
@@ -1281,6 +1363,7 @@
       "position": null
     },
     {
+      "id": 83,
       "studioId": "yoga-daily-life",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T08:00:00.000Z",
@@ -1295,6 +1378,7 @@
       "position": null
     },
     {
+      "id": 84,
       "studioId": "yoga-daily-life",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T08:45:00.000Z",
@@ -1309,6 +1393,7 @@
       "position": null
     },
     {
+      "id": 85,
       "studioId": "yoga-daily-life",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T09:00:00.000Z",
@@ -1323,6 +1408,7 @@
       "position": null
     },
     {
+      "id": 86,
       "studioId": "yoga-daily-life",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T14:00:00.000Z",
@@ -1337,6 +1423,7 @@
       "position": null
     },
     {
+      "id": 87,
       "studioId": "yoga-daily-life",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T16:00:00.000Z",
@@ -1351,6 +1438,7 @@
       "position": null
     },
     {
+      "id": 88,
       "studioId": "yoga-daily-life",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T17:45:00.000Z",
@@ -1365,6 +1453,7 @@
       "position": null
     },
     {
+      "id": 89,
       "studioId": "yoga-daily-life",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T08:00:00.000Z",
@@ -1379,6 +1468,7 @@
       "position": null
     },
     {
+      "id": 90,
       "studioId": "yoga-daily-life",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T16:00:00.000Z",
@@ -1393,6 +1483,7 @@
       "position": null
     },
     {
+      "id": 91,
       "studioId": "yoga-daily-life",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T16:15:00.000Z",
@@ -1407,6 +1498,7 @@
       "position": null
     },
     {
+      "id": 92,
       "studioId": "yoga-daily-life",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T08:30:00.000Z",
@@ -1421,6 +1513,7 @@
       "position": null
     },
     {
+      "id": 93,
       "studioId": "yoga-daily-life",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T16:00:00.000Z",
@@ -1435,6 +1528,7 @@
       "position": null
     },
     {
+      "id": 94,
       "studioId": "yoga-daily-life",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T16:30:00.000Z",
@@ -1449,6 +1543,7 @@
       "position": null
     },
     {
+      "id": 95,
       "studioId": "yoga-karlin",
       "date": "2021-04-05T22:00:00.000Z",
       "time": "1899-12-30T15:40:00.000Z",
@@ -1463,6 +1558,7 @@
       "position": null
     },
     {
+      "id": 96,
       "studioId": "yoga-karlin",
       "date": "2021-06-05T22:00:00.000Z",
       "time": "1899-12-30T16:50:00.000Z",
@@ -1477,6 +1573,7 @@
       "position": null
     },
     {
+      "id": 97,
       "studioId": "yoga-karlin",
       "date": "31.5.2021",
       "time": "1899-12-30T19:10:00.000Z",
@@ -1491,6 +1588,7 @@
       "position": null
     },
     {
+      "id": 98,
       "studioId": "yoga-karlin",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T19:10:00.000Z",
@@ -1505,6 +1603,7 @@
       "position": null
     },
     {
+      "id": 99,
       "studioId": "yoga-karlin",
       "date": "2021-04-05T22:00:00.000Z",
       "time": "1899-12-30T15:40:00.000Z",
@@ -1519,6 +1618,7 @@
       "position": null
     },
     {
+      "id": 100,
       "studioId": "yoga-karlin",
       "date": "31.5.2021",
       "time": "1899-12-30T16:50:00.000Z",
@@ -1533,6 +1633,7 @@
       "position": null
     },
     {
+      "id": 101,
       "studioId": "yoga-karlin",
       "date": "31.5.2021",
       "time": "1899-12-30T18:00:00.000Z",
@@ -1547,6 +1648,7 @@
       "position": null
     },
     {
+      "id": 102,
       "studioId": "yoga-karlin",
       "date": "2021-04-05T22:00:00.000Z",
       "time": "1899-12-30T16:50:00.000Z",
@@ -1561,6 +1663,7 @@
       "position": null
     },
     {
+      "id": 103,
       "studioId": "yoga-karlin",
       "date": "31.5.2021",
       "time": "1899-12-30T06:20:00.000Z",
@@ -1575,6 +1678,7 @@
       "position": null
     },
     {
+      "id": 104,
       "studioId": "yoga-karlin",
       "date": "31.5.2021",
       "time": "1899-12-30T11:00:00.000Z",
@@ -1589,6 +1693,7 @@
       "position": null
     },
     {
+      "id": 105,
       "studioId": "yoga-karlin",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T06:20:00.000Z",
@@ -1603,6 +1708,7 @@
       "position": null
     },
     {
+      "id": 106,
       "studioId": "yoga-karlin",
       "date": "2021-01-05T23:00:00.000Z",
       "time": "1899-12-30T16:50:00.000Z",
@@ -1617,6 +1723,7 @@
       "position": null
     },
     {
+      "id": 107,
       "studioId": "yoga-karlin",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T06:20:00.000Z",
@@ -1631,6 +1738,7 @@
       "position": null
     },
     {
+      "id": 108,
       "studioId": "yoga-karlin",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T11:00:00.000Z",
@@ -1645,6 +1753,7 @@
       "position": null
     },
     {
+      "id": 109,
       "studioId": "yoga-karlin",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T16:50:00.000Z",
@@ -1659,6 +1768,7 @@
       "position": null
     },
     {
+      "id": 110,
       "studioId": "yoga-karlin",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T11:00:00.000Z",
@@ -1673,6 +1783,7 @@
       "position": null
     },
     {
+      "id": 111,
       "studioId": "yoga-karlin",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T18:00:00.000Z",
@@ -1687,6 +1798,7 @@
       "position": null
     },
     {
+      "id": 112,
       "studioId": "yoga-karlin",
       "date": "2021-05-05T22:00:00.000Z",
       "time": "1899-12-30T08:00:00.000Z",
@@ -1701,6 +1813,7 @@
       "position": null
     },
     {
+      "id": 113,
       "studioId": "yoga-karlin",
       "date": "2021-06-05T22:00:00.000Z",
       "time": "1899-12-30T18:00:00.000Z",
@@ -1715,6 +1828,7 @@
       "position": null
     },
     {
+      "id": 114,
       "studioId": "aloha-joga",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T06:45:00.000Z",
@@ -1729,6 +1843,7 @@
       "position": null
     },
     {
+      "id": 115,
       "studioId": "aloha-joga",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T16:00:00.000Z",
@@ -1743,6 +1858,7 @@
       "position": null
     },
     {
+      "id": 116,
       "studioId": "aloha-joga",
       "date": "2021-02-05T23:00:00.000Z",
       "time": "1899-12-30T17:15:00.000Z",
@@ -1757,6 +1873,7 @@
       "position": null
     },
     {
+      "id": 117,
       "studioId": "aloha-joga",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T08:00:00.000Z",
@@ -1771,6 +1888,7 @@
       "position": null
     },
     {
+      "id": 118,
       "studioId": "aloha-joga",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T17:15:00.000Z",
@@ -1785,6 +1903,7 @@
       "position": null
     },
     {
+      "id": 119,
       "studioId": "aloha-joga",
       "date": "2021-03-05T23:00:00.000Z",
       "time": "1899-12-30T18:30:00.000Z",
@@ -1799,6 +1918,7 @@
       "position": null
     },
     {
+      "id": 120,
       "studioId": "aloha-joga",
       "date": "2021-04-05T22:00:00.000Z",
       "time": "1899-12-30T06:30:00.000Z",
@@ -1813,6 +1933,7 @@
       "position": null
     },
     {
+      "id": 121,
       "studioId": "aloha-joga",
       "date": "2021-04-05T22:00:00.000Z",
       "time": "1899-12-30T07:30:00.000Z",
@@ -1827,6 +1948,7 @@
       "position": null
     },
     {
+      "id": 122,
       "studioId": "aloha-joga",
       "date": "2021-04-05T22:00:00.000Z",
       "time": "1899-12-30T10:30:00.000Z",
@@ -1841,6 +1963,7 @@
       "position": null
     },
     {
+      "id": 123,
       "studioId": "aloha-joga",
       "date": "2021-05-05T22:00:00.000Z",
       "time": "1899-12-30T07:30:00.000Z",
@@ -1855,6 +1978,7 @@
       "position": null
     },
     {
+      "id": 124,
       "studioId": "aloha-joga",
       "date": "2021-06-05T22:00:00.000Z",
       "time": "1899-12-30T17:30:00.000Z",
@@ -1869,6 +1993,7 @@
       "position": null
     },
     {
+      "id": 125,
       "studioId": "aloha-joga",
       "date": "2021-07-05T22:00:00.000Z",
       "time": "1899-12-30T16:00:00.000Z",
@@ -1883,6 +2008,7 @@
       "position": null
     },
     {
+      "id": 126,
       "studioId": "aloha-joga",
       "date": "2021-07-05T22:00:00.000Z",
       "time": "1899-12-30T17:15:00.000Z",
@@ -1897,6 +2023,7 @@
       "position": null
     },
     {
+      "id": 127,
       "studioId": "aloha-joga",
       "date": "2021-07-05T22:00:00.000Z",
       "time": "1899-12-30T18:30:00.000Z",
@@ -1911,6 +2038,7 @@
       "position": null
     },
     {
+      "id": 128,
       "studioId": "aloha-joga",
       "date": "2021-08-05T22:00:00.000Z",
       "time": "1899-12-30T06:30:00.000Z",
@@ -1925,6 +2053,7 @@
       "position": null
     },
     {
+      "id": 129,
       "studioId": "aloha-joga",
       "date": "2021-08-05T22:00:00.000Z",
       "time": "1899-12-30T07:30:00.000Z",
@@ -1939,6 +2068,7 @@
       "position": null
     },
     {
+      "id": 130,
       "studioId": "aloha-joga",
       "date": "2021-08-05T22:00:00.000Z",
       "time": "1899-12-30T10:30:00.000Z",
@@ -1953,6 +2083,7 @@
       "position": null
     },
     {
+      "id": 131,
       "studioId": "aloha-joga",
       "date": "2021-08-05T22:00:00.000Z",
       "time": "1899-12-30T16:00:00.000Z",
@@ -1967,6 +2098,7 @@
       "position": null
     },
     {
+      "id": 132,
       "studioId": "aloha-joga",
       "date": "2021-08-05T22:00:00.000Z",
       "time": "1899-12-30T17:15:00.000Z",
@@ -1981,6 +2113,7 @@
       "position": null
     },
     {
+      "id": 133,
       "studioId": "aloha-joga",
       "date": "2021-08-05T22:00:00.000Z",
       "time": "1899-12-30T18:30:00.000Z",

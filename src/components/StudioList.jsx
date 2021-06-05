@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './studiolist.css';
 import data from '../data.json';
 
@@ -13,9 +14,9 @@ export const StudioList = () => {
 
           return (
             <div key={studio.id} className="studio__card">
-              <Link to={`/studio/${studio.id}`}>
+              <HashLink to={`/studio/${studio.id}#`}>
                 <h2>{studio.name}</h2>
-              </Link>
+              </HashLink>
               <img src={photos[0]} alt="fotka studia" />
             </div>
           );
