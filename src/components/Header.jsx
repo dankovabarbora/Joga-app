@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 export const Header = () => {
   return (
@@ -20,9 +21,9 @@ export const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to="/#search__form" className="nav-link">
+            <HashLink to="/#search__form" className="nav-link">
               Vyhledávání
-            </Link>
+            </HashLink>
           </li>
           <li>
             <Link to="/studio-list" className="nav-link">

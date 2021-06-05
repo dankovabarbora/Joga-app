@@ -53,9 +53,9 @@ export const LessonDetail = () => {
             <li>Rezervační sytém:</li>
           </ul>
         </div>
-        <button>
+        {/* <button>
           <Link to="/lesson-list">Zpět na výsledky hledání</Link>
-        </button>
+        </button> */}
       </div>
     </section>
   );
