@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.logo-container {
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  margin-left: 20px;
+}
+
+.logo-lotos {
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.logo-text {
+  padding-left: 20px;
+  font-size: 2rem;
+  font-family: 'Amatic SC', cursive;
+}
+
+.menu_buttons li {
+  /* list-style-type: none; */
+  margin: 2px;
+}
+
+.menu_buttons a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.menu_buttons a:hover {
+  border-bottom: 1px solid black;
+}
+
+.hamburger-btn {
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  background-color: transparent;
+  margin-top: 35px;
+  margin-right: 20px;
+  cursor: pointer;
+  background-image: url('../assets/hamburger.svg');
+}
+
+/* .nav-closed {
+  display: none;
+} */
