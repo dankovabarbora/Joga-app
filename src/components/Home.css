@@ -58,6 +58,7 @@ h2 {
   border-radius: 10px;
   padding: 20px;
   display: flex;
+  line-height: 2;
 }
 
 .search__fields input {

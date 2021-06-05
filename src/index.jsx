@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { render } from 'react-dom';
 import './style.css';
 import { Header } from './components/Header';
@@ -13,6 +13,15 @@ import { Footer } from './components/Footer';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 const App = () => {
+  const [filter, setFilter] = useState({
+    location: null,
+    date: new Date(),
+    time: new Date(),
+    available: true,
+    level: null,
+    studio: null,
+  });
+
   return (
     <Router>
       <div>
@@ -25,7 +34,7 @@ const App = () => {
             <LessonDetail />
           </Route>
           <Route path="/lesson-list">
-            <LessonList />
+            <LessonList filter={filter} />
           </Route>
           <Route path="/studio/:id">
             <StudioDetail />
@@ -34,7 +43,7 @@ const App = () => {
             <StudioList />
           </Route>
           <Route path="/">
-            <Home />
+            <Home setFilter={setFilter} filter={filter} />
           </Route>
         </Switch>
         <Footer />

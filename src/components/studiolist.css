@@ -39,6 +39,11 @@
   font-family: 'Amatic SC', cursive;
 }
 
+.studio__card a {
+  text-decoration: none;
+  color: black;
+}
+
 .studio__card img {
   width: 90%;
   margin: 10px;

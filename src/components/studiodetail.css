@@ -9,19 +9,35 @@
   margin: 10px;
 }
 
-.oneResult__photos {
+/*.oneResult__photos {
   display: flex;
   overflow: auto;
+  
+}*/
+
+.carousel {
+  max-width: 500px;
+  height: 250px;
+  display: flex;
 }
 
-.oneResult__photos img {
-  width: 200px;
+.carousel__predchozi,
+.carousel__nasledujici {
+	flex-shrink: 0;
 }
+
+.carousel__media {
+	flex-grow: 1;
+}
+
+/*.oneResult__photos img {
+  width: 200px;
+}*/
 
 .oneResult__onePhoto {
   border-radius: 3px;
   margin: 10px;
-  width: 200px;
+  width: 300px;
 }
 
 .oneStudio {
