@@ -1,0 +1,46 @@
+.studios__gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.studios__gallery h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+  
+}
+
+.studios__list {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.studio__card {
+  width: 80%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: transparent;
+  margin: 20px;
+}
+
+.studio__card h2 {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+.studio__card img {
+  width: 90%;
+  margin: 10px;
+  border-radius: 5px;
+}

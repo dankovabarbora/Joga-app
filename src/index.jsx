@@ -27,7 +27,7 @@ const App = () => {
           <Route path="/lesson-list">
             <LessonList />
           </Route>
-          <Route path="/studio/:id">
+          <Route path="/studio">
             <StudioDetail />
           </Route>
           <Route path="/studio-list">
