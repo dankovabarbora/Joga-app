@@ -16,22 +16,6 @@ const App = () => {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Domů</Link>
-            </li>
-            <li>
-              <Link to="/#search__form">Vyhledávání</Link>
-            </li>
-            <li>
-              <Link to="/studio-list">Seznam jógových studií</Link>
-            </li>
-            <li>
-              <Link to="/about">O nás</Link>
-            </li>
-          </ul>
-        </nav>
         <Header />
         <Switch>
           <Route path="/about">
