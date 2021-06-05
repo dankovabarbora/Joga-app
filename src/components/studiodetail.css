@@ -1,12 +1,21 @@
 .oneStudio__title {
   font-family: 'Amatic SC', cursive;
+  text-align: center;
 }
 
-.oneResult__photogallery {
-  background-color: rgba(255, 255, 255, 0.3);
+.oneStudio__photogallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-height: 600px;
+  /*background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   width: 85vw;
-  margin: 10px;
+  margin: 10px;*/
+}
+
+img {
+  width: 100%;
 }
 
 /*.oneResult__photos {
@@ -15,7 +24,7 @@
   
 }*/
 
-.carousel {
+/*.carousel {
   max-width: 500px;
   height: 250px;
   display: flex;
@@ -28,57 +37,84 @@
 
 .carousel__media {
 	flex-grow: 1;
-}
+}*/
 
 /*.oneResult__photos img {
   width: 200px;
 }*/
 
-.oneResult__onePhoto {
+/*.oneResult__onePhoto {
   border-radius: 3px;
   margin: 10px;
   width: 300px;
-}
+}*/
 
 .oneStudio {
-  min-height: 100vh;
+  height: 100vh;
   min-width: 100%;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.oneStudio h1 {
-  margin-left: 20px;
+  align-items: center;*/
 }
 
 .oneStudio__details {
-  margin: 20px;
+  /*margin: 20px;*/
   line-height: 1.5;
+  max-width: 80vw;
+  margin: 0 auto 0;
+  z-index: 1;
+  overflow: visible;
+  background: white;
+  position: relative;
+  top: -150px;
+  padding: 24px 34px;
 }
+
 .oneStudio__description {
   text-align: justify;
 }
+
 .oneStudio__icons {
-  height: 1em;
-  width: 1em;
+  height: 2em;
+  width: 2em;
+}
+
+.oneStudio__website,
+.oneStudio__facebook,
+.oneStudio__instagram,
+.oneStudio__email {
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.oneStudio__address {
+  display: flex;
+}
+
+.oneStudio__address-text {
+  padding-left: 15px;
 }
 
 .oneStudio__links {
-  margin: 40px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .oneStudio__links a {
   text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
 
 @media (min-width: 1000px) {
-  .oneStudio__div {
+  /*.oneStudio__div {
     width: 55vw;
-  }
+  }*/
 
   .oneResult__photogallery,
   .oneResult__details {
-    width: 55vw;
+    width: auto;
+    z-index: 0;
   }
 }

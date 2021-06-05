@@ -15,7 +15,7 @@ export const StudioDetail = () => {
     <section className="oneStudio">
       <div className="oneStudio__div">
         <h1 className="oneStudio__title">{studio.name}</h1>
-        <div className="oneResult__photogallery">
+        <div className="oneStudio__photogallery">
           <div className="oneResult__photos carousel">
             <button
               onClick={() => {
@@ -52,43 +52,55 @@ export const StudioDetail = () => {
         </div>
         <div className="oneStudio__details">
           <p className="oneStudio__description">{studio.description}</p>
+          <div className="oneStudio__address">
+            <img
+              className="oneStudio__icons"
+              src="/assets/address.svg"
+              alt="ikona špendlíku"
+            />
+            <div className="oneStudio__address-text">{studio.address}</div>
+          </div>
           <div className="oneStudio__links">
-            <div>
-              <img
-                className="oneStudio__icons"
-                src="/assets/ikonka.svg"
-                alt=""
-              />
-              <a href={studio.website}>Webové stránky</a>
+            <div className="oneStudio__website">
+              <a href={studio.website}>
+                <img
+                  className="oneStudio__icons"
+                  src="/assets/ikonka.svg"
+                  alt="ikona webové stránky"
+                />
+              </a>
             </div>
-            <div>
-              <img
-                className="oneStudio__icons"
-                src="/assets/facebook.svg"
-                alt=""
-              />
-              <a href={studio.facebook}>Facebook</a>
+            <div className="oneStudio__email">
+              <a href={studio.email}>
+                <img
+                  className="oneStudio__icons"
+                  src="/assets/mail.svg"
+                  alt="ikona e-mailu"
+                />
+              </a>
             </div>
-            <div>
-              <img
-                className="oneStudio__icons"
-                src="/assets/instagram.svg"
-                alt=""
-              />
-              <a href={studio.instagram}>Instagram</a>
+            <div className="oneStudio__facebook">
+              <a href={studio.facebook}>
+                <img
+                  className="oneStudio__icons"
+                  src="/assets/facebook.svg"
+                  alt="ikona facebooku"
+                />
+              </a>
             </div>
-            <div>
-              <img
-                className="oneStudio__icons"
-                src="/assets/address.svg"
-                alt=""
-              />
-              <div>{studio.address}</div>
+            <div className="oneStudio__instagram">
+              
+              <a href={studio.instagram} >
+                <img
+                  className="oneStudio__icons"
+                  src="/assets/instagram.svg"
+                  alt="ikona instagramu"
+                  
+                />
+              </a>
             </div>
-            <div>
-              <img className="oneStudio__icons" src="/assets/mail.svg" alt="" />
-              <a href={studio.email}>E-mail</a>
-            </div>
+
+            
           </div>
         </div>
       </div>
