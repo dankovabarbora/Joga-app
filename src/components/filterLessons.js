@@ -1,3 +1,12 @@
+import {
+  toLatLon,
+  toLatitudeLongitude,
+  headingDistanceTo,
+  moveTo,
+  insidePolygon,
+  distanceTo,
+} from 'geolocation-utils';
+
 import data from '../data.json';
 export function filterLessons(filter) {
   return data.Lekce.filter((lekce) => {

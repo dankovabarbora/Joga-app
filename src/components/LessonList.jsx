@@ -1,13 +1,6 @@
 import React from 'react';
 import './LessonList.css';
-import {
-  toLatLon,
-  toLatitudeLongitude,
-  headingDistanceTo,
-  moveTo,
-  insidePolygon,
-  distanceTo,
-} from 'geolocation-utils';
+
 import {
   BrowserRouter as Router,
   Switch,
