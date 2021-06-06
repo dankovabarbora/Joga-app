@@ -16,61 +16,13 @@ import {
   useParams,
 } from 'react-router-dom';
 import data from '../data.json';
+import { filterLessons } from './filterLessons';
 
 const dnyVTydnu = ['Po', 'Út', 'St', 'Čt', 'Pá', 'So', 'Ne'];
 
 export const LessonList = (props) => {
   console.log(props);
-  const filteredLessons = data.Lekce.filter((lekce) => {
-    const day = new Date(lekce.date).getDay();
-    
-    if (props.filter.available === true && lekce.occupancy === 'full') {
-      return false;
-    }
-    if (props.filter.level && lekce.difficulty !== props.filter.level) {
-      return false;
-    }
-
-    if (props.filter.studio && lekce.studioId !== props.filter.studio) {
-      return false;
-    }
-
-    if (props.filter.date && day != props.filter.date) {
-      return false;
-    }
-
-    const studio = data.Studio.find((x) => x.id);
-
-    if (props.filter.location) {
-      const radius = 3000;
-      const locationDistrict = toLatLon(
-        props.filter.location.split(',').map((i) => {
-          return parseFloat(i);
-        }),
-      );
-      
-
-      const locationStudio = toLatLon(
-        studio.position.split(',').map((i) => {
-          return parseFloat(i);
-        }),
-      );
-
-      const locationLesson = lekce.position
-        ? toLatLon(
-            lekce.position.split(',').map((i) => {
-              return parseFloat(i);
-            }),
-          )
-        : locationStudio;
-
-      if (distanceTo(locationDistrict, locationLesson) > radius) {
-        return false;
-      }
-    }
-
-    return true;
-  });
+  const filteredLessons = filterLessons(props.filter);
 
   console.log(filteredLessons.length);
   return (
@@ -92,7 +44,6 @@ export const LessonList = (props) => {
                 0,
               )}`}</span>{' '}
               <span className="results__StudioName">{studio.name}</span>{' '}
-              
               <span className="results__title">{lekce.title}</span>{' '}
               <span className={lekce.occupancy === 'full' ? 'obsazeno' : ''}>
                 {lekce.occupancy === 'full' ? 'Obsazeno' : null}
