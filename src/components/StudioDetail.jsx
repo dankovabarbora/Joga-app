@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import './studiodetail.css';
 import data from '../data.json';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Carousel } from 'react-responsive-carousel';
 
 export const StudioDetail = () => {
   let { id } = useParams();
-  const [order, setOrder] = useState(0);
 
   const studio = data.Studio.find((x) => x.id === id);
 
@@ -16,38 +17,21 @@ export const StudioDetail = () => {
       <div className="oneStudio__div">
         <h1 className="oneStudio__title">{studio.name}</h1>
         <div className="oneStudio__photogallery">
-          <div className="oneResult__photos carousel">
-            <button
-              onClick={() => {
-                if (order <= 0) {
-                  setOrder(4);
-                } else {
-                  setOrder(order - 1);
-                }
-              }}
-              className="carousel__predchozi"
+          <div className="oneResult__photos">
+            <Carousel
+              autoPlay={true}
+              showThumbs={false}
+              interval={2000}
+              transitionTime={500}
             >
-              ←
-            </button>
-            <div className="carousel__media">
               {photos.map((photo, index) => {
                 return (
-                  <img src={photo.trim()} alt="fotka studia" key={index} />
+                  <div key={index} className="">
+                    <img src={photo.trim()} alt="fotka studia" key={index} />
+                  </div>
                 );
               })}
-            </div>
-            <button
-              onClick={() => {
-                if (order === 4) {
-                  setOrder(0);
-                } else {
-                  setOrder(order + 1);
-                }
-              }}
-              className="carousel__nasledujici"
-            >
-              →
-            </button>
+            </Carousel>
           </div>
         </div>
         <div className="oneStudio__details">
@@ -89,18 +73,14 @@ export const StudioDetail = () => {
               </a>
             </div>
             <div className="oneStudio__instagram">
-              
-              <a href={studio.instagram} >
+              <a href={studio.instagram}>
                 <img
                   className="oneStudio__icons"
                   src="/assets/instagram.svg"
                   alt="ikona instagramu"
-                  
                 />
               </a>
             </div>
-
-            
           </div>
         </div>
       </div>
