@@ -86,9 +86,28 @@ export const Home = (props) => {
             </label>
             <br></br>
             <label>
-              Datum:
-              <input type="date" />
+              Den v týdnu
+              <br />
+              <select
+                value={props.filter.date || ''}
+                onChange={(event) => {
+                  props.setFilter({
+                    ...props.filter,
+                    date: event.target.value,
+                  });
+                }}
+              >
+                <option value="">Zvolte den...</option>
+                <option value="0">Pondělí</option>
+                <option value="1">Úterý</option>
+                <option value="2">Středa</option>
+                <option value="3">Čtvrtek</option>
+                <option value="4">Pátek</option>
+                <option value="5">Sobota</option>
+                <option value="6">Neděle</option>
+              </select>
             </label>
+            <br />
             <label>
               Čas:
               <input type="time" />
