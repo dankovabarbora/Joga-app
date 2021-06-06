@@ -47,7 +47,7 @@ h2 {
   font-size: 2rem;
 }
 /*search*/
- {
+.search-intro {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -106,20 +106,8 @@ select {
 }
 
 @media (min-width: 796px) {
-}
-
-@media (min-width: 1000px) {
-  .intro__div {
-    width: 60%;
-  }
-  .intro h1 {
-    font-size: 4rem;
-    width: 400px;
-    padding-bottom: 40px;
-  }
-
   .search-intro {
-    display: flex;
+    flex-direction: row;
   }
 
   .map-intro {
@@ -132,5 +120,16 @@ select {
 
   .select__studio {
     margin-left: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .intro__div {
+    width: 60%;
+  }
+  .intro h1 {
+    font-size: 4rem;
+    width: 400px;
+    padding-bottom: 40px;
   }
 }
