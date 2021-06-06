@@ -1,0 +1,11 @@
+.map-intro {
+  width: 95vw;
+  height: 50vh;
+  border: 1px solid black;
+}
+
+@media (min-width: 796px) {
+  .map-intro {
+    width: 70%;
+  }
+}

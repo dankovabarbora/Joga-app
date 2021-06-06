@@ -79,12 +79,6 @@ h2 {
   height: 8vmin;
 }
 
-.map-intro {
-  width: 95vw;
-  height: 50vh;
-  border: 1px solid black;
-}
-
 select {
   margin-left: 10px;
 }
@@ -108,10 +102,6 @@ select {
 @media (min-width: 796px) {
   .search-intro {
     flex-direction: row;
-  }
-
-  .map-intro {
-    width: 70%;
   }
   .search__form {
     width: 25%;
