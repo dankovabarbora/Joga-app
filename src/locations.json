@@ -1,12 +1,12 @@
 [
-  { "label": "Praha 1", "latitude": "50.0854832", "longitude": "14.3937384" },
-  { "label": "Praha 2", "latitude": "50.0737726", "longitude": "14.4129106" },
-  { "label": "Praha 3", "latitude": "50.0871345,14.4532902" },
-  { "label": "Praha 4", "latitude": "50.040602", "longitude": "14.411044" },
-  { "label": "Praha 5", "latitude": "50.0517787", "longitude": "14.3337162" },
-  { "label": "Praha 6", "latitude": "50.0995163", "longitude": "14.2512796" },
-  { "label": "Praha 7", "latitude": "50.1041616", "longitude": "14.4154316" },
-  { "label": "Praha 8", "latitude": "50.1191465", "longitude": "14.4089153" },
-  { "label": "Praha 9", "latitude": "50.1096124", "longitude": "14.4697205" },
-  { "label": "Praha 10", "latitude": "50.067232", "longitude": "14.4552947" }
+  { "label": "Praha 1", "latitude": "50.0854086N", "longitude": "14.4164442E" },
+  { "label": "Praha 2", "latitude": "50.0718147N", "longitude": "14.4299578E" },
+  { "label": "Praha 3", "latitude": "50.0866064N", "longitude": "14.4683978E" },
+  { "label": "Praha 4", "latitude": "50.0375997N", "longitude": "14.4391761E" },
+  { "label": "Praha 5", "latitude": "50.0552925", "longitude": "14.3796906" },
+  { "label": "Praha 6", "latitude": "50.1045153N", "longitude": "14.3768183E" },
+  { "label": "Praha 7", "latitude": "50.1085367N", "longitude": "14.4242242E" },
+  { "label": "Praha 8", "latitude": "50.1243992N", "longitude": "14.4545700E" },
+  { "label": "Praha 9", "latitude": "50.1069575N,", "longitude": "14.5102069E" },
+  { "label": "Praha 10", "latitude": "50.0697103N", "longitude": "14.4751089E" }
 ]

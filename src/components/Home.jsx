@@ -82,6 +82,7 @@ export const Home = (props) => {
                 }}
                 name="district"
               >
+                <option value="">Všechny městské části</option>
                 {data.map((location, index) => {
                   return (
                     <option

@@ -42,7 +42,10 @@ export function filterLessons(filter) {
           )
         : locationStudio;
 
-      if (distanceTo(locationDistrict, locationLesson) > radius) {
+      const distance = distanceTo(locationDistrict, locationLesson);
+
+      if (distance > radius) {
+        console.log(distance);
         return false;
       }
     }
