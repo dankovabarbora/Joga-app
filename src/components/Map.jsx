@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Map.css';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import ReactMapGL, { Marker } from 'react-map-gl';
+import ReactMapGL, { Marker, Popup } from 'react-map-gl';
 import { filterLessons } from './filterLessons';
 import data from '../data.json';
 
@@ -11,6 +11,9 @@ export const Map = (props) => {
     longitude: 14.421045443793917,
     zoom: 15,
   });
+
+  const [popupOtevren, setPopupOtevren] = useState(false);
+
   const studios = data.Studio;
   const lessons = filterLessons(props.filter);
 
@@ -50,15 +53,26 @@ export const Map = (props) => {
           const coordinates = position.split(',').map((i) => parseFloat(i));
 
           return (
-            <Marker
-              key={lesson.id}
-              latitude={coordinates[0]}
-              longitude={coordinates[1]}
-              offsetLeft={-8}
-              offsetTop={-24}
-            >
-              <img src="assets/spendlik_lotos.svg" alt="spendlik" />
-            </Marker>
+            <div key={lesson.id}>
+              <Marker
+                latitude={coordinates[0]}
+                longitude={coordinates[1]}
+                offsetLeft={-8}
+                offsetTop={-24}
+              >
+                <button className="marker-button" onClick={() => setPopupOtevren(true)}>
+                  <img src="assets/spendlik_lotos.svg" alt="spendlik" />
+                </button>
+              </Marker>
+              {popupOtevren && (
+                <Popup
+                  latitude={coordinates[0]}
+                  longitude={coordinates[1]}
+                  offsetTop={-24}
+                  onClose={() => setPopupOtevren(false)}
+                ></Popup>
+              )}
+            </div>
           );
         })}
       </ReactMapGL>

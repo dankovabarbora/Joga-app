@@ -4,6 +4,15 @@
   border: 1px solid black;
 }
 
+.marker-button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  outline: none;
+  cursor: pointer;
+}
+
 @media (min-width: 796px) {
   .map-intro {
     width: 70%;
