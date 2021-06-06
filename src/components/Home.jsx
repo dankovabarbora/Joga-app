@@ -3,6 +3,7 @@ import './Home.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { LessonList } from './LessonList';
 import data from '../locations.json';
+import { Map } from './Map';
 
 export const Home = (props) => {
   return (
@@ -65,7 +66,7 @@ export const Home = (props) => {
       </div>
 
       <div className="search-intro">
-        <div className="map-intro"></div>
+        <Map />
 
         <form id="search__form" className="search__form" action="">
           <div className="search__fields">
