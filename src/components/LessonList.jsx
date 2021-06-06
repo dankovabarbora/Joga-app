@@ -23,7 +23,7 @@ export const LessonList = (props) => {
   console.log(props);
   const filteredLessons = data.Lekce.filter((lekce) => {
     const day = new Date(lekce.date).getDay();
-    
+
     if (props.filter.available === true && lekce.occupancy === 'full') {
       return false;
     }
@@ -39,7 +39,7 @@ export const LessonList = (props) => {
       return false;
     }
 
-    const studio = data.Studio.find((x) => x.id);
+    const studio = data.Studio.find((x) => lekce.studioId === x.id);
 
     if (props.filter.location) {
       const radius = 3000;
@@ -48,7 +48,6 @@ export const LessonList = (props) => {
           return parseFloat(i);
         }),
       );
-      
 
       const locationStudio = toLatLon(
         studio.position.split(',').map((i) => {
@@ -64,7 +63,10 @@ export const LessonList = (props) => {
           )
         : locationStudio;
 
-      if (distanceTo(locationDistrict, locationLesson) > radius) {
+      const distance = distanceTo(locationDistrict, locationLesson);
+
+      if (distance > radius) {
+        console.log(distance);
         return false;
       }
     }
@@ -92,7 +94,6 @@ export const LessonList = (props) => {
                 0,
               )}`}</span>{' '}
               <span className="results__StudioName">{studio.name}</span>{' '}
-              
               <span className="results__title">{lekce.title}</span>{' '}
               <span className={lekce.occupancy === 'full' ? 'obsazeno' : ''}>
                 {lekce.occupancy === 'full' ? 'Obsazeno' : null}
