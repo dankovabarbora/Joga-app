@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Home.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { LessonList } from './LessonList';
+import data from '../locations.json';
 
 export const Home = (props) => {
   return (
@@ -71,17 +72,26 @@ export const Home = (props) => {
             <label>
               Městská část
               <br></br>
-              <select name="district">
-                <option value="prague1">Praha 1</option>
-                <option value="prague1">Praha 2</option>
-                <option value="prague1">Praha 3</option>
-                <option value="prague1">Praha 4</option>
-                <option value="prague1">Praha 5</option>
-                <option value="prague1">Praha 6</option>
-                <option value="prague1">Praha 7</option>
-                <option value="prague1">Praha 8</option>
-                <option value="prague1">Praha 9</option>
-                <option value="prague1">Praha 10</option>
+              <select
+                value={props.filter.location || ''}
+                onChange={(event) => {
+                  props.setFilter({
+                    ...props.filter,
+                    location: event.target.value,
+                  });
+                }}
+                name="district"
+              >
+                {data.map((location, index) => {
+                  return (
+                    <option
+                      key={index}
+                      value={`${location.latitude},${location.longitude}`}
+                    >
+                      {location.label}
+                    </option>
+                  );
+                })}
               </select>
             </label>
             <br></br>
