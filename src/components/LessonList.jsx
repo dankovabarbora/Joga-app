@@ -37,7 +37,8 @@ export const LessonList = (props) => {
                 2,
                 0,
               )}`}</span>{' '}
-              <span className="results__StudioName">{studio.name}</span> <br />
+              <span className="results__StudioName">{studio.name}</span>{' '}
+              {/* <br /> */}
               <span className="results__title">{lekce.title}</span>{' '}
               <span className={lekce.occupancy === 'full' ? 'obsazeno' : ''}>
                 {lekce.occupancy === 'full' ? 'Obsazeno' : null}

@@ -31,6 +31,7 @@
 
 .results__title {
   padding-left: 0px;
+  display: block;
 }
 
 .obsazeno {
@@ -42,4 +43,15 @@
 }
 .results-intro a:nth-child(2n) {
   background-color: lightgray;
+}
+
+@media (min-width: 640px) {
+  .results__title {
+    display: inline;
+  }
+
+  .results-intro a {
+    font-size: 1.25rem;
+    line-height: 3;
+  }
 }

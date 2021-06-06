@@ -8,7 +8,7 @@ export const Home = (props) => {
     <>
       <div className="intro">
         <div className="intro__div">
-          <h1>Za jógou: Rychle, jednoduše a na pár kliknutí</h1>
+          <h1>Na jógu: Rychle, jednoduše a na pár kliknutí</h1>
         </div>
       </div>
 
