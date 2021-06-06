@@ -46,30 +46,24 @@ h2 {
   font-family: 'Amatic SC', cursive;
   font-size: 2rem;
 }
-
-.search {
-  width: 85vw;
-  border-radius: 10px;
-  padding: 20px;
+/*search*/
+.search-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 .search__form {
-  width: 85vw;
   border-radius: 10px;
-  padding: 20px;
   display: flex;
   line-height: 2;
 }
 
-.search__fields input {
-  border: 1px solid black;
+.search__fields {
+  padding: 20px 0;
 }
 
-.checkbox {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px 0;
+.search__fields input {
+  border: 1px solid black;
 }
 
 .checkbox__input {
@@ -86,62 +80,22 @@ h2 {
 }
 
 .map-intro {
+  width: 95vw;
   height: 50vh;
-  /* background-image: url('./img/mapa.PNG'); */
-  background-size: cover;
-  margin: 20px 20px 20px 20px;
   border: 1px solid black;
 }
 
-input {
-  display: block;
-  height: 3em;
-  border-radius: 5px;
-}
-
-.results {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 40vh;
-  width: 85vw;
-  border-radius: 10px;
-  padding: 20px;
-}
-
-.results a {
-  display: block;
-  text-decoration: none;
-  color: black;
-  line-height: 2;
-}
-
-.results h2 {
-  text-align: center;
-}
-
-.results__img {
-  height: 1.5em;
-  width: 1.5em;
-  margin-bottom: -4.5px;
-}
-
-.results {
-  margin: 10px;
+select {
+  margin-left: 10px;
 }
 
 /*RESPOONZIVITA*/
 
-/*Responzivita */
 @media (min-width: 470px) {
   .intro__div {
     width: 80%;
     display: flex;
     flex-direction: column;
-  }
-
-  .intro__btn a {
-    top: 35%;
   }
 }
 
@@ -149,40 +103,23 @@ input {
   .intro__div {
     width: 75%;
   }
-
-  /*.map,*/
-  .results {
-    height: 50vh;
-    width: 60vw;
-  }
-
-  .search {
-    width: 60vw;
-  }
-
-  .studios__list {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-
-  .studio__card {
-    width: 35%;
-    margin: 20px 0;
-  }
 }
 
 @media (min-width: 796px) {
   .search-intro {
-    display: flex;
-  }
-
-  .search__form {
-    flex-basis: 30%;
+    flex-direction: row;
   }
 
   .map-intro {
-    flex-basis: 70%;
+    width: 70%;
+  }
+  .search__form {
+    width: 25%;
+    padding: 0 0 0 20px;
+  }
+
+  .select__studio {
+    margin-left: 0;
   }
 }
 
@@ -194,38 +131,5 @@ input {
     font-size: 4rem;
     width: 400px;
     padding-bottom: 40px;
-  }
-
-  .search-intro {
-    display: flex;
-  }
-
-  .search__form {
-    flex-basis: 30%;
-  }
-
-  .map-intro {
-    flex-basis: 70%;
-  }
-
-  .intro__text {
-    font-size: 1.25rem;
-  }
-
-  .intro__btn a {
-    font-size: 1.5rem;
-  }
-
-  .main__div {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .map,
-  .search,
-  .results {
-    width: 35vw;
-    height: 70vh;
   }
 }

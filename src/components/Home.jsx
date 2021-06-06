@@ -71,7 +71,6 @@ export const Home = (props) => {
           <div className="search__fields">
             <label>
               Městská část
-              <br></br>
               <select
                 value={props.filter.location || ''}
                 onChange={(event) => {
@@ -94,10 +93,9 @@ export const Home = (props) => {
                 })}
               </select>
             </label>
-            <br></br>
+            <br />
             <label>
               Den v týdnu
-              <br />
               <select
                 value={props.filter.date || ''}
                 onChange={(event) => {
@@ -118,10 +116,7 @@ export const Home = (props) => {
               </select>
             </label>
             <br />
-            <label>
-              Čas:
-              <input type="time" />
-            </label>
+
             <label className="checkbox">
               Pouze dostupné
               <input
@@ -142,8 +137,8 @@ export const Home = (props) => {
 
             <label>
               Výběr podle studia
-              <br></br>
               <select
+                className="select__studio"
                 value={props.filter.studio || ''}
                 onChange={(event) => {
                   props.setFilter({
@@ -171,7 +166,21 @@ export const Home = (props) => {
             <br></br>
             <label>
               Náročnost
-              <input type="text" />
+              <select
+                value={props.filter.level || ''}
+                onChange={(event) => {
+                  props.setFilter({
+                    ...props.filter,
+                    level: event.target.value,
+                  });
+                }}
+              >
+                <option value="">Zvolte obtížnost...</option>
+                <option value="*">*</option>
+                <option value="**">**</option>
+                <option value="***">***</option>
+                <option value="****">****</option>
+              </select>
             </label>
           </div>
         </form>
