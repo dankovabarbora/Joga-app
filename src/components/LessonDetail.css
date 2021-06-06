@@ -37,6 +37,45 @@ ul{
   padding-bottom: 30px;
 }
 
+.oneResult__links {
+  display: flex;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.oneResult__phone-text {
+  padding-left: 15px;
+}
+
+.button__reservation {
+  display: block;
+  border: none;
+  border-radius: 100px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: 'Amatic SC', cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.oneStudio__icons {
+  height: 2em;
+  width: 2em;
+}
+
+.oneResult__contacts {
+  width: 100%;
+}
+
+.oneResult__phone {
+  display: flex;
+}
+
 .oneResult__photogallery {
   /*background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
