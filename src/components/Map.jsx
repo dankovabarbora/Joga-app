@@ -1,14 +1,19 @@
 import React, { useState } from 'react';
 import './Map.css';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import ReactMapGL from 'react-map-gl';
+import ReactMapGL, { Marker } from 'react-map-gl';
+import { filterLessons } from './filterLessons';
+import data from '../data.json';
 
-export const Map = () => {
+export const Map = (props) => {
   const [viewport, setViewport] = useState({
     latitude: 50.087543262674856,
     longitude: 14.421045443793917,
     zoom: 15,
   });
+  const studios = data.Studio;
+  const lessons = filterLessons(props.filter);
+
   return (
     <div className="map-intro">
       <ReactMapGL
@@ -37,7 +42,26 @@ export const Map = () => {
         width="100%"
         height={'100%'}
         onViewportChange={(nextViewport) => setViewport(nextViewport)}
-      ></ReactMapGL>
+      >
+        {lessons.map((lesson) => {
+          const studio = studios.find((x) => lesson.studioId === x.id);
+
+          const position = lesson.position ? lesson.position : studio.position;
+          const coordinates = position.split(',').map((i) => parseFloat(i));
+
+          return (
+            <Marker
+              key={lesson.id}
+              latitude={coordinates[0]}
+              longitude={coordinates[1]}
+              offsetLeft={-8}
+              offsetTop={-24}
+            >
+              <img src="assets/spendlik_lotos.svg" alt="spendlik" />
+            </Marker>
+          );
+        })}
+      </ReactMapGL>
     </div>
   );
 };

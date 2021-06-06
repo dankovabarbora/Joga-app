@@ -66,7 +66,7 @@ export const Home = (props) => {
       </div>
 
       <div className="search-intro">
-        <Map />
+        <Map filter={props.filter} />
 
         <form id="search__form" className="search__form" action="">
           <div className="search__fields">

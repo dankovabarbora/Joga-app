@@ -18,7 +18,7 @@ export function filterLessons(filter) {
       return false;
     }
 
-    const studio = data.Studio.find((x) => x.id);
+    const studio = data.Studio.find((x) => lekce.studioId === x.id);
 
     if (filter.location) {
       const radius = 3000;
