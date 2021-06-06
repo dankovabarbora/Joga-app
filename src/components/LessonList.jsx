@@ -19,6 +19,10 @@ export const LessonList = (props) => {
     if (props.filter.available === true && lekce.occupancy === 'full') {
       return false;
     }
+    if (props.filter.level && lekce.difficulty !== props.filter.level) {
+      return false;
+    }
+
     if (props.filter.studio && lekce.studioId !== props.filter.studio) {
       return false;
     }
