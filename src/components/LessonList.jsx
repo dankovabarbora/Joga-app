@@ -14,10 +14,16 @@ const dnyVTydnu = ['Po', 'Út', 'St', 'Čt', 'Pá', 'So', 'Ne'];
 export const LessonList = (props) => {
   console.log(props);
   const filteredLessons = data.Lekce.filter((lekce) => {
+    const day = new Date(lekce.date).getDay();
+    console.log(day);
     if (props.filter.available === true && lekce.occupancy === 'full') {
       return false;
     }
     if (props.filter.studio && lekce.studioId !== props.filter.studio) {
+      return false;
+    }
+
+    if (props.filter.date && day != props.filter.date) {
       return false;
     }
     return true;

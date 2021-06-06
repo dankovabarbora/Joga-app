@@ -15,7 +15,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 const App = () => {
   const [filter, setFilter] = useState({
     location: null,
-    date: new Date(),
+    date: new Date().getDay(),
     time: new Date(),
     available: true,
     level: null,
