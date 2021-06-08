@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 export const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const handleclick = () => {
+    setMenuOpen(!menuOpen);
+  };
   return (
     <header className="header">
       <div className="logo-container">
@@ -13,7 +17,7 @@ export const Header = () => {
         <p className="logo-text">Na jógu</p>
       </div>
 
-      <nav className="menu nav-closed">
+      <nav className={menuOpen === false ? 'menu nav-closed' : 'menu'}>
         <ul className="menu_buttons">
           <li>
             <Link to="/" className="nav-link">
@@ -39,7 +43,11 @@ export const Header = () => {
       </nav>
 
       <div className="hamburger">
-        <button className="hamburger-btn" id="hamburger-btn"></button>
+        <button
+          onClick={handleclick}
+          className="hamburger-btn"
+          id="hamburger-btn"
+        ></button>
       </div>
     </header>
   );
