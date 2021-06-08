@@ -21,7 +21,11 @@ export const LessonDetail = () => {
   return (
     <section className="oneResult">
       <h1 className="oneResult__heading">
-        <span>{` ${time.getHours()}:${time.getMinutes()}`} </span>
+        <span>
+          {` ${String(time.getHours()).padStart(2, 0)}:${String(
+            time.getMinutes(),
+          ).padStart(2, 0)}`}{' '}
+        </span>
         <span>{studio.name} </span>
         <span>{lekce.title}</span>
       </h1>
