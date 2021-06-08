@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './LessonList.css';
-
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,8 +15,28 @@ const dnyVTydnu = ['Po', 'Út', 'St', 'Čt', 'Pá', 'So', 'Ne'];
 export const LessonList = (props) => {
   console.log(props);
   const filteredLessons = filterLessons(props.filter);
-
   console.log(filteredLessons.length);
+
+  const lessonsPerPage = 7;
+  let arrayForLessons = [];
+  const [lessonsToShow, setLessonsToShow] = useState([]);
+  const [next, setNext] = useState(lessonsPerPage);
+
+  const sliceList = (start, end) => {
+    const slicedLessons = filteredLessons.slice(start, end);
+    arrayForLessons = [...arrayForLessons, ...slicedLessons];
+    setLessonsToShow(arrayForLessons);
+  };
+
+  useEffect(() => {
+    sliceList(0, lessonsPerPage);
+  }, []);
+
+  const handleShowMoreLessons = () => {
+    sliceList(next, next + lessonsPerPage);
+    setNext(next + lessonsPerPage);
+  };
+
   return (
     <>
       <div className="results-intro">
@@ -44,6 +63,7 @@ export const LessonList = (props) => {
             </Link>
           );
         })}
+        <button onClick={handleShowMoreLessons}> Načíst další </button>
       </div>
     </>
   );

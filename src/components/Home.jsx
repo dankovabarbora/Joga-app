@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Home.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { LessonList } from './LessonList';
@@ -135,7 +135,7 @@ export const Home = (props) => {
                 defaultChecked={props.filter.available}
               />
             </label>
-            <button className="btn__advanced">Rozšířené hledání</button>
+            {/*<button className="btn__advanced">Rozšířené hledání</button>*/}
 
             <label>
               Výběr podle studia
