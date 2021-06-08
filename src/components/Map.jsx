@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Map.css';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import ReactMapGL, { Marker, Popup } from 'react-map-gl';
+import ReactMapGL, { Marker, Popup, GeolocateControl } from 'react-map-gl';
 import { filterLessons } from './filterLessons';
 import data from '../data.json';
 
@@ -46,6 +46,16 @@ export const Map = (props) => {
         height={'100%'}
         onViewportChange={(nextViewport) => setViewport(nextViewport)}
       >
+        <GeolocateControl
+          style={{
+            right: 10,
+            top: 10,
+          }}
+          positionOptions={{ enableHighAccuracy: true }}
+          trackUserLocation={true}
+          showAccuracyCircle={false}
+          auto
+        />
         {lessons.map((lesson) => {
           const studio = studios.find((x) => lesson.studioId === x.id);
 
