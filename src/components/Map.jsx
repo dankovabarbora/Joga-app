@@ -9,10 +9,10 @@ export const Map = (props) => {
   const [viewport, setViewport] = useState({
     latitude: 50.087543262674856,
     longitude: 14.421045443793917,
-    zoom: 15,
+    zoom: 12,
   });
 
-  const [popupOtevren, setPopupOtevren] = useState(false);
+  const [popup, setPopup] = useState(null);
 
   const studios = data.Studio;
   const lessons = filterLessons(props.filter);
@@ -60,18 +60,23 @@ export const Map = (props) => {
                 offsetLeft={-8}
                 offsetTop={-24}
               >
-                <button className="marker-button" onClick={() => setPopupOtevren(true)}>
+                <button
+                  className="marker-button"
+                  onClick={() => setPopup(lesson.id)}
+                >
                   <img src="assets/spendlik_lotos.svg" alt="spendlik" />
                 </button>
               </Marker>
-              {popupOtevren && (
+              {popup === lesson.id ? (
                 <Popup
                   latitude={coordinates[0]}
                   longitude={coordinates[1]}
-                  offsetTop={-24}
-                  onClose={() => setPopupOtevren(false)}
-                ></Popup>
-              )}
+                  offsetTop={-34}
+                  onClose={() => setPopup(null)}
+                >
+                  {studio.name}
+                </Popup>
+              ) : null}
             </div>
           );
         })}
