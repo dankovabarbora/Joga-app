@@ -20,22 +20,26 @@ export const Header = () => {
       <nav className={menuOpen === false ? 'menu nav-closed' : 'menu'}>
         <ul className="menu_buttons">
           <li>
-            <Link to="/" className="nav-link">
+            <Link onClick={handleclick} to="/" className="nav-link">
               Domů
             </Link>
           </li>
           <li>
-            <HashLink to="/#search__form" className="nav-link">
+            <HashLink
+              onClick={handleclick}
+              to="/#search__form"
+              className="nav-link"
+            >
               Vyhledávání
             </HashLink>
           </li>
           <li>
-            <Link to="/studio-list" className="nav-link">
+            <Link onClick={handleclick} to="/studio-list" className="nav-link">
               Seznam jógových studií
             </Link>
           </li>
           <li>
-            <Link to="/about" className="nav-link">
+            <Link onClick={handleclick} to="/about" className="nav-link">
               O nás
             </Link>
           </li>
