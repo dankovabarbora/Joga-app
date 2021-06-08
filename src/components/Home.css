@@ -29,6 +29,7 @@ h2 {
 
 .intro__articles {
   display: flex;
+  flex-direction: column;
 }
 
 .intro__pose {
@@ -86,6 +87,9 @@ select {
 /*RESPOONZIVITA*/
 
 @media (min-width: 470px) {
+  .intro__articles {
+    flex-direction: row;
+  }
   .intro__div {
     width: 80%;
     display: flex;
