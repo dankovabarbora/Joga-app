@@ -1,62 +1,71 @@
 .oneResult {
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   min-width: 100%;
+}
+
+.oneResult__description {
+  display: block;
+  text-align: justify;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  line-height: 1.5;
 }
 
 .oneResult__div {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
+  /*align-items: center;*/
+  /*width: 100%;*/
+  line-height: 1.5;
 }
 
 .oneResult__heading {
   font-family: 'Amatic SC', cursive;
-  /*font-weight: bold;*/
   text-align: center;
-  /*background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 5px;
-  padding: 10px;*/
 }
 
-ul{
+.oneResult__capacity {
+  margin-right: 10px;
+}
+/*.oneResult__capacity,
+.oneResult__difficulty,
+.oneResult__length,
+.oneResult__teacher,
+.oneResult__price,
+.oneResult__contacts {
   padding-left: 30px;
   padding-right: 30px;
-}
-
-.oneResult__capacity, .oneResult__difficulty, .oneResult__length, .oneResult__teacher, .oneResult__price, .oneResult__contacts {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-.oneResult__description {
-  line-height: 1.5;
-  display: block;
-  text-align: justify;
-  margin-right: 30px;
-  margin-left: 30px;
-  padding-bottom: 30px;
-}
+}*/
 
 .oneResult__links {
-  display: flex;
   padding-right: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
-.oneResult__phone-text {
-  padding-left: 15px;
+.oneResult__icons {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.oneResult__phone {
+  padding-top: 5px;
 }
 
 .button__reservation {
   display: block;
   border: none;
   border-radius: 100px;
-  width: 200px;
+  width: 150px;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: 'Amatic SC', cursive;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.button__reservation:hover {
+  background-color: rgb(209, 235, 236);
 }
 
 a {
@@ -68,9 +77,9 @@ a {
   width: 2em;
 }
 
-.oneResult__contacts {
+/*.oneResult__contacts {
   width: 100%;
-}
+}*/
 
 .oneResult__phone {
   display: flex;
@@ -80,29 +89,12 @@ a {
   /*background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   width: 85vw;*/
-  width: 100%;
   margin: 10px;
 }
 
 .oneResult__photos {
   display: flex;
-  
   overflow: auto;
-}
-
-/*.oneResult__onePhoto {
-  border-radius: 3px;
-  margin: 10px;
-  width: 200px;
-}*/
-
-.oneResult__details {
-  /*background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 10px;
-  width: 85vw;
-  margin: 10px;*/
-  
-  line-height: 1.5;
 }
 
 .oneResult__details li {

@@ -17,7 +17,7 @@ export const LessonList = (props) => {
   const filteredLessons = filterLessons(props.filter);
   console.log(filteredLessons.length);
 
-  const lessonsPerPage = 7;
+  /*const lessonsPerPage = 7;
   let arrayForLessons = [];
   const [lessonsToShow, setLessonsToShow] = useState([]);
   const [next, setNext] = useState(lessonsPerPage);
@@ -35,7 +35,7 @@ export const LessonList = (props) => {
   const handleShowMoreLessons = () => {
     sliceList(next, next + lessonsPerPage);
     setNext(next + lessonsPerPage);
-  };
+  };*/
 
   return (
     <>
@@ -63,7 +63,7 @@ export const LessonList = (props) => {
             </Link>
           );
         })}
-        <button onClick={handleShowMoreLessons}> Načíst další </button>
+        <button > Načíst další </button>
       </div>
     </>
   );

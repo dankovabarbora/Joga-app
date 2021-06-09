@@ -29,62 +29,64 @@ export const LessonDetail = () => {
         <span>{studio.name} </span>
         <span>{lekce.title}</span>
       </h1>
+      <div className="oneResult__description">{lekce.description}</div>
+      
       <div className="oneResult__div">
-        <div className="oneResult__details">
-          <ul>
-            {/*<li>Název lekce: {lekce.title}</li>*/}
-            <li className="oneResult__description">{lekce.description}</li>
-            <hr></hr>
-            <li className="oneResult__capacity">
-              Kapacita:{' '}
-              {lekce.occupancy === 'full'
-                ? 'Kapacita této lekce byla naplněna.'
-                : 'Na této lekci jsou stále volná místa.'}
-            </li>
-            <li className="oneResult__difficulty">
-              Náročnost: {lekce.difficulty}{' '}
-            </li>
-            <li className="oneResult__length">
-              Délka lekce (v hodinách): {lekce.length}{' '}
-            </li>
-            <li className="oneResult__teacher">Lektor: {lekce.teacher}</li>
-            <li className="oneResult__price">Cena: {lekce.price}</li>
+        <ul className="oneResult__details">
+          {/*<li>Název lekce: {lekce.title}</li>*/}
 
-            <div className="oneResult__contacts">
-              <li className="oneResult__phone">
-                <img
-                  className="oneResult__icons"
-                  src="/assets/phone.svg"
-                  alt="ikona telefon"
-                ></img>
-                <div className="oneResult__phone-text">{studio.phone}</div>
+         
+
+          <li className="oneResult__capacity">
+            Kapacita:{' '}
+            {lekce.occupancy === 'full'
+              ? 'Kapacita této lekce byla naplněna.'
+              : 'Na této lekci jsou stále volná místa.'}
+          </li>
+          <li className="oneResult__difficulty">
+            Náročnost: {lekce.difficulty}{' '}
+          </li>
+          <li className="oneResult__length">
+            Délka lekce (v hodinách): {lekce.length}{' '}
+          </li>
+          <li className="oneResult__teacher">Lektor: {lekce.teacher}</li>
+          <li className="oneResult__price">Cena: {lekce.price}</li>
+
+          <div className="oneResult__contacts">
+            <li className="oneResult__phone">
+              <img
+                className="oneResult__icons"
+                src="/assets/phone.svg"
+                alt="ikona telefon"
+              ></img>
+              <div className="oneResult__phone-text">{studio.phone}</div>
+            </li>
+            <div className="oneResult__links">
+              <li className="oneResult__icons">
+                <a href={studio.email}>
+                  <img
+                    className="oneResult__icons"
+                    src="/assets/mail.svg"
+                    alt="ikona email"
+                  ></img>
+                </a>
               </li>
-              <div className="oneResult__links">
-                <li>
-                  <a href={studio.email}>
-                    <img
-                      className="oneResult__icons"
-                      src="/assets/mail.svg"
-                      alt="ikona email"
-                    ></img>
-                  </a>
-                </li>
-                <li>
-                  <a href={studio.website}>
-                    <img
-                      className="oneResult__icons"
-                      src="/assets/ikonka.svg"
-                      alt="ikona webové stránky"
-                    ></img>
-                  </a>
-                </li>
-              </div>
-              <a href={lekce.reservation}>
-                <button className="button__reservation">Rezervujte</button>
-              </a>
+              <li className="oneResult__icons">
+                <a href={studio.website}>
+                  <img
+                    className="oneResult__icons"
+                    src="/assets/ikonka.svg"
+                    alt="ikona webové stránky"
+                  ></img>
+                </a>
+              </li>
             </div>
-          </ul>
-        </div>
+          </div>
+          <a href={lekce.reservation}>
+            <button className="button__reservation">Rezervujte</button>
+          </a>
+        </ul>
+
         <div className="oneResult__photogallery">
           <div className="oneResult__photos">
             {photos.map((photo, index) => {
