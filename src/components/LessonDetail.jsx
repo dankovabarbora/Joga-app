@@ -25,17 +25,14 @@ export const LessonDetail = () => {
           {` ${String(time.getHours()).padStart(2, 0)}:${String(
             time.getMinutes(),
           ).padStart(2, 0)}`}{' '}
-        </span>
-        <span>{studio.name} </span>
-        <span>{lekce.title}</span>
+        </span>{' '}
+        – <span>{studio.name} </span> – <span>{lekce.title}</span>
       </h1>
       <div className="oneResult__description">{lekce.description}</div>
-      
+
       <div className="oneResult__div">
         <ul className="oneResult__details">
           {/*<li>Název lekce: {lekce.title}</li>*/}
-
-         
 
           <li className="oneResult__capacity">
             Kapacita:{' '}
@@ -62,7 +59,7 @@ export const LessonDetail = () => {
               <div className="oneResult__phone-text">{studio.phone}</div>
             </li>
             <div className="oneResult__links">
-              <li className="oneResult__icons">
+              <li className="oneResult__email">
                 <a href={studio.email}>
                   <img
                     className="oneResult__icons"
@@ -71,7 +68,7 @@ export const LessonDetail = () => {
                   ></img>
                 </a>
               </li>
-              <li className="oneResult__icons">
+              <li className="oneResult__website">
                 <a href={studio.website}>
                   <img
                     className="oneResult__icons"

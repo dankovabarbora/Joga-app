@@ -1,5 +1,4 @@
 .oneResult {
-  /*min-height: 100vh;*/
   min-width: 100%;
 }
 
@@ -15,8 +14,6 @@
 .oneResult__div {
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
-  /*width: 100%;*/
   line-height: 1.5;
 }
 
@@ -28,23 +25,19 @@
 .oneResult__capacity {
   margin-right: 10px;
 }
-/*.oneResult__capacity,
-.oneResult__difficulty,
-.oneResult__length,
-.oneResult__teacher,
-.oneResult__price,
-.oneResult__contacts {
-  padding-left: 30px;
-  padding-right: 30px;
-}*/
 
-.oneResult__links {
-  padding-right: 20px;
-  padding-top: 10px;
+.oneResult__contacts {
+  display: flex;
 }
 
-.oneResult__icons {
+.oneResult__links {
+  display: flex;
+}
+
+.oneResult__email,
+.oneResult__website {
   padding-right: 10px;
+  padding-left: 15px;
   padding-bottom: 10px;
 }
 
@@ -72,23 +65,16 @@ a {
   text-decoration: none;
 }
 
-.oneStudio__icons {
+.oneResult__icons {
   height: 2em;
   width: 2em;
 }
-
-/*.oneResult__contacts {
-  width: 100%;
-}*/
 
 .oneResult__phone {
   display: flex;
 }
 
 .oneResult__photogallery {
-  /*background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 10px;
-  width: 85vw;*/
   margin: 10px;
 }
 
