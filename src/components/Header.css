@@ -2,6 +2,7 @@
   display: flex;
   background-color: white;
   justify-content: space-between;
+  position: relative;
 }
 
 .logo-container {
@@ -21,6 +22,10 @@
   padding-left: 20px;
   font-size: 2rem;
   font-family: 'Amatic SC', cursive;
+}
+
+.menu {
+  margin-right: 40px;
 }
 
 .menu_buttons li {
@@ -47,10 +52,14 @@
   background-size: cover;
   border: none;
   background-color: transparent;
-  margin-top: 35px;
-  margin-right: 20px;
   cursor: pointer;
   background-image: url('../assets/hamburger.svg');
+}
+.hamburger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
 }
 
 .nav-closed {
@@ -73,16 +82,9 @@
     width: 40%;
   }
 
-  .menu {
-    display: none;
-  }
-
   .menu_buttons {
     display: flex;
-  }
-
-  .hamburger-btn {
-    margin-bottom: 40px;
+    flex-direction: column;
   }
 }
 
@@ -95,6 +97,9 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
+  }
+  .menu_buttons {
+    flex-direction: row;
   }
 }
 
