@@ -25,13 +25,9 @@ export const Header = () => {
             </Link>
           </li>
           <li>
-            <HashLink
-              onClick={handleclick}
-              to="/#search__form"
-              className="nav-link"
-            >
+            <Link onClick={handleclick} to="/search" className="nav-link">
               Vyhledávání
-            </HashLink>
+            </Link>
           </li>
           <li>
             <Link onClick={handleclick} to="/studio-list" className="nav-link">

@@ -9,7 +9,7 @@ import { LessonList } from './components/LessonList';
 import { LessonDetail } from './components/LessonDetail';
 import { StudioDetail } from './components/StudioDetail';
 import { Footer } from './components/Footer';
-
+import { Search } from './components/Search';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 const App = () => {
@@ -42,8 +42,11 @@ const App = () => {
           <Route path="/studio-list">
             <StudioList />
           </Route>
+          <Route path="/search">
+            <Search setFilter={setFilter} filter={filter} />
+          </Route>
           <Route path="/">
-            <Home setFilter={setFilter} filter={filter} />
+            <Home />
           </Route>
         </Switch>
         <Footer />

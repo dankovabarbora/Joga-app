@@ -9,6 +9,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+
 }
 .intro h1 {
   color: black;
@@ -21,6 +23,27 @@
   width: 300px;
   padding-left: 20px;
   padding-right: 40px;
+  
+}
+
+.btn__start {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  border-radius: 100px;
+  width: 150px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: 'Amatic SC', cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 280px;
+}
+
+.btn__start:hover {
+  background-color: rgb(209, 235, 236);
 }
 
 h2 {
@@ -142,5 +165,9 @@ select {
     font-size: 4rem;
     width: 400px;
     padding-bottom: 40px;
+  }
+
+  .btn__start {
+    top: 310px;
   }
 }
