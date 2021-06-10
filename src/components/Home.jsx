@@ -1,4 +1,11 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useParams,
+} from 'react-router-dom';
 import './Home.css';
 
 export const Home = () => {
@@ -7,7 +14,9 @@ export const Home = () => {
       <div className="intro">
         <div className="intro__div">
           <h1>Na jógu: Rychle a na pár kliknutí</h1>
-          <button className="btn__start">Chci si zacvičit</button>
+          <Link to="/search">
+            <button className="btn__start">Chci si zacvičit</button>
+          </Link>
         </div>
       </div>
 
