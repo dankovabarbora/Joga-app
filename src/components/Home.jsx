@@ -193,7 +193,7 @@ export const Home = (props) => {
         </form>
       </div>
       <LessonList filter={props.filter} limit={limit} />
-      <button onClick={loadMore}> Načíst další </button>
+      <button className="btn__loadMore" onClick={loadMore}> Načíst další </button>
     </>
   );
 };

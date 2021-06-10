@@ -35,7 +35,7 @@ export const StudioDetail = () => {
           </div>
         </div>
         <div className="oneStudio__details">
-          <p className="oneStudio__description">{studio.description}</p>
+          <div className="oneStudio__description">{studio.description}</div>
           <div className="oneStudio__address">
             <img
               className="oneStudio__icons"

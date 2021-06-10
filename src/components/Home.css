@@ -72,18 +72,35 @@ h2 {
   width: 2rem;
 }
 
-.btn__advanced {
+/*.btn__advanced {
   display: block;
   border: none;
   border-radius: 100px;
   width: 100%;
   height: 8vmin;
-}
+}*/
 
 select {
   margin-left: 10px;
 }
 
+.btn__loadMore {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  border-radius: 100px;
+  width: 150px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: 'Amatic SC', cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn__loadMore:hover {
+  background-color: rgb(209, 235, 236);
+}
 /*RESPOONZIVITA*/
 
 @media (min-width: 470px) {

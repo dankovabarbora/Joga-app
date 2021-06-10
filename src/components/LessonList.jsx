@@ -14,7 +14,7 @@ const dnyVTydnu = ['Po', 'Út', 'St', 'Čt', 'Pá', 'So', 'Ne'];
 
 export const LessonList = (props) => {
   console.log(props);
-  const filteredLessons = filterLessons(props.filter);
+  const filteredLessons = filterLessons(props.filter, props.limit);
   console.log(filteredLessons.length);
 
   return (
@@ -44,7 +44,6 @@ export const LessonList = (props) => {
           );
         })}
       </div>
-     
     </>
   );
 };

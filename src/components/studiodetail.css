@@ -3,7 +3,6 @@
   text-align: center;
 }
 
-
 .oneStudio__details {
   line-height: 1.5;
   margin: 0 auto 0;
@@ -30,6 +29,7 @@
 
 .oneStudio__address {
   display: flex;
+  padding-top: 20px;
 }
 
 .oneStudio__address-text {
@@ -49,7 +49,7 @@
 }
 
 @media (min-width: 1000px) {
- /*
+  /*
 
   .oneResult__photogallery,
   .oneResult__details {
