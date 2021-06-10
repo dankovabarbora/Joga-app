@@ -4,13 +4,31 @@
   align-items: center;
 }
 .search__form {
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   display: flex;
+  flex-direction: column;
   line-height: 2;
 }
 
 .search__fields {
   padding: 20px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.search__fields-basic,
+.search__fields-advanced {
+  display: flex;
+  width: 100%;
+}
+
+.select-district,
+.select-day,
+.select-studio,
+.select-level {
+  padding-right: 20px;
 }
 
 .search__fields input {
@@ -20,6 +38,24 @@
 .checkbox__input {
   margin: 0;
   width: 2rem;
+}
+
+.btn__advanced {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  border-radius: 100px;
+  width: 150px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: 'Amatic SC', cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn__advanced:hover {
+  background-color: rgb(209, 235, 236);
 }
 
 select {
