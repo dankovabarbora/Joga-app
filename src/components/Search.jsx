@@ -61,7 +61,7 @@ export const Search = (props) => {
                     });
                   }}
                 >
-                  <option value="">Zvolte den...</option>
+                  <option value="">Všechny dny v týdnu</option>
                   <option value="1">Pondělí</option>
                   <option value="2">Úterý</option>
                   <option value="3">Středa</option>
