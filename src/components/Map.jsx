@@ -73,6 +73,12 @@ export const Map = (props) => {
                 <button
                   className="marker-button"
                   onMouseEnter={() => setPopup(lesson.id)}
+                  onClick={() =>
+                    props.setFilter({
+                      ...props.filter,
+                      studio: lesson.studioId,
+                    })
+                  }
                 >
                   <img src="assets/spendlik_lotos.svg" alt="spendlik" />
                 </button>
