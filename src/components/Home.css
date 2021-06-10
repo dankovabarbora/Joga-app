@@ -67,7 +67,7 @@ h2 {
   font-family: 'Amatic SC', cursive;
   font-size: 2rem;
 }
-/*search*/
+/*search
 .search-intro {
   display: flex;
   flex-direction: column;
@@ -112,7 +112,7 @@ select {
 
 .btn__loadMore:hover {
   background-color: rgb(209, 235, 236);
-}
+}*/
 /*RESPOONZIVITA*/
 
 @media (min-width: 470px) {
@@ -157,6 +157,6 @@ select {
   }
 
   .btn__start {
-    top: 310px;
+    margin-bottom: 80px;
   }
 }

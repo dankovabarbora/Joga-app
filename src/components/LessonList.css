@@ -77,6 +77,7 @@
 
 .obsazeno {
   color: brown;
+  padding-left: 60px;
 }
 
 .results-intro a:nth-child(1n) {
