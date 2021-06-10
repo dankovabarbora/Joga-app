@@ -44,7 +44,7 @@ export const LessonDetail = () => {
             Náročnost: {lekce.difficulty}{' '}
           </li>
           <li className="oneResult__length">
-            Délka lekce (v hodinách): {lekce.length}{' '}
+            Délka lekce: {`${lekce.length * 60} minut`}{' '}
           </li>
           <li className="oneResult__teacher">Lektor: {lekce.teacher}</li>
           <li className="oneResult__price">Cena: {lekce.price}</li>
@@ -60,7 +60,7 @@ export const LessonDetail = () => {
             </li>
             <div className="oneResult__links">
               <li className="oneResult__email">
-                <a href={studio.email}>
+                <a href={`mailto:${studio.email}`}>
                   <img
                     className="oneResult__icons"
                     src="/assets/mail.svg"
