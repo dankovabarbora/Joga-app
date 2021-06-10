@@ -55,7 +55,7 @@ export const StudioDetail = () => {
               </a>
             </div>
             <div className="oneStudio__email">
-              <a href={studio.email}>
+              <a href={`mailto:${studio.email}`}>
                 <img
                   className="oneStudio__icons"
                   src="/assets/mail.svg"
@@ -64,7 +64,13 @@ export const StudioDetail = () => {
               </a>
             </div>
             <div className="oneStudio__facebook">
-              <a href={studio.facebook}>
+              <a
+                href={
+                  studio.facebook === null
+                    ? 'oneStudio__facebook hidden'
+                    : 'oneStudio__facebook'
+                }
+              >
                 <img
                   className="oneStudio__icons"
                   src="/assets/facebook.svg"
@@ -72,7 +78,13 @@ export const StudioDetail = () => {
                 />
               </a>
             </div>
-            <div className="oneStudio__instagram">
+            <div
+              className={
+                studio.instagram === null
+                  ? 'oneStudio__instagram hidden'
+                  : 'oneStudio__instagram'
+              }
+            >
               <a href={studio.instagram}>
                 <img
                   className="oneStudio__icons"

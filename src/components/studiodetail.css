@@ -48,6 +48,10 @@
   cursor: pointer;
 }
 
+.hidden {
+  display: none;
+}
+
 @media (min-width: 1000px) {
   /*
 
