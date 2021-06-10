@@ -24,10 +24,9 @@ export const Home = () => {
           />
           <h2>Rychle</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, ipsum molestiae! Doloremque eum sint illo perspiciatis,
-            placeat earum iste consequuntur, magnam vitae exercitationem
-            deserunt saepe illum sequi minima, dolorem tempora?
+            Není třeba ztrácet čas vyhledáváním jednotlivých studií na internetu
+            a pročítáním jejich nabídky. U nás tyto informace najdete hezky
+            pohromadě.
           </p>
         </div>
 
@@ -39,10 +38,9 @@ export const Home = () => {
           />
           <h2>Přehledně</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, ipsum molestiae! Doloremque eum sint illo perspiciatis,
-            placeat earum iste consequuntur, magnam vitae exercitationem
-            deserunt saepe illum sequi minima, dolorem tempora?
+            Na interaktivní mapě si ve svém okolí vyhledejte nejbližší studio a
+            s pomocí filtrů si na pár kliků vyhledejte lekci jógy, která se koná
+            v čase, jenž Vám bude sedět.
           </p>
         </div>
 
@@ -54,10 +52,9 @@ export const Home = () => {
           />
           <h2>S ohledem na Vaše možnosti</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, ipsum molestiae! Doloremque eum sint illo perspiciatis,
-            placeat earum iste consequuntur, magnam vitae exercitationem
-            deserunt saepe illum sequi minima, dolorem tempora?
+            Těžký den? Najděte si lekci, kde si odpočinete a naberete znovu
+            síly. Pokud se ale potřebujete zapotit, ani to pro nás není problém.
+            Vyhledávat je možné i podle náročnosti.
           </p>
         </div>
       </div>

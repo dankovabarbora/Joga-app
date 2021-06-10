@@ -4,7 +4,7 @@ import "./footer.css";
 export const Footer = () => {
   return (
     <footer>
-      © Bára a Šárka pro Czechitas Digitální akademii: Front-end web jaro 2021 
+      © Bára a Šárka pro Digitální akademii: Front-end web jaro 2021 
     </footer>
   );
 };

@@ -1,0 +1,34 @@
+.about__heading {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.about__articles {
+  padding: 0px 50px 30px 50px;
+  text-align: justify;
+
+}
+
+.about__articles-first, .about__articles-second, .about__articles-third {
+  padding-bottom: 25px;
+}
+
+/*Responzivita*/
+
+@media (min-width: 466px) {
+.about__heading {
+  font-size: 2rem;
+}
+}
+
+@media (min-width: 790px) {
+  .about__articles {
+width: 75%;
+margin: 0 auto;
+  }
+
+  .about__heading {
+    font-size: 3rem;
+  }
+}
