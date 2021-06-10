@@ -8,6 +8,8 @@
   display: flex;
   flex-direction: column;
   line-height: 2;
+  margin-left: 10px;
+  text-align: left;
 }
 
 .search__fields {
@@ -18,17 +20,17 @@
   display: none;
 }
 
-.search__fields-basic,
-.search__fields-advanced {
+.search__fields-basic/*,
+.search__fields-advanced*/ {
   display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
-.select-district,
 .select-day,
 .select-studio,
 .select-level {
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 .search__fields input {
@@ -58,7 +60,7 @@
   background-color: rgb(209, 235, 236);
 }
 
-select {
+.select__search {
   margin-left: 10px;
 }
 
@@ -83,6 +85,18 @@ select {
 
 /*RESPOONZIVITA*/
 
+@media (min-width: 640px) {
+  .search__fields-basic {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .select-district {
+    padding-right: 10px;
+  }
+}
+
 @media (min-width: 796px) {
   .search-intro {
     flex-direction: row;
@@ -92,7 +106,15 @@ select {
     padding: 0 0 0 20px;
   }
 
-  .select__studio {
-    margin-left: 0;
+  .search__fields-basic {
+    display: flex;
+    flex-direction: column;
   }
+
+  .select__studio {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1000px) {
 }

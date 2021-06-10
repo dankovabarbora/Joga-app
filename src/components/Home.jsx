@@ -47,9 +47,9 @@ export const Home = () => {
           />
           <h2>Přehledně</h2>
           <p>
-            Na interaktivní mapě si ve svém okolí vyhledejte nejbližší studio a
-            s pomocí filtrů si na pár kliků vyhledejte lekci jógy, která se koná
-            v čase, jenž Vám bude sedět.
+            Na interaktivní mapě si najděte nejbližší studio a s pomocí našich
+            filtrů si na pár kliknutí vyhledejte lekci jógy v čase, který Vám
+            bude sedět.
           </p>
         </div>
 
@@ -61,8 +61,8 @@ export const Home = () => {
           />
           <h2>S ohledem na Vaše možnosti</h2>
           <p>
-            Těžký den? Najděte si lekci, kde si odpočinete a naberete znovu
-            síly. Pokud se ale potřebujete zapotit, ani to pro nás není problém.
+            Těžký den? Najděte si lekci, kde si odpočinete a znovu naberete
+            síly. Pokud se potřebujete zapotit, ani to pro nás není problém.
             Vyhledávat je možné i podle náročnosti.
           </p>
         </div>

@@ -26,7 +26,7 @@ export const Search = (props) => {
             <div className="search__fields-basic">
               <label className="select-district">
                 Městská část
-                <select
+                <select className="select__search"
                   value={props.filter.location || ''}
                   onChange={(event) => {
                     props.setFilter({
@@ -52,7 +52,7 @@ export const Search = (props) => {
 
               <label className="select-day">
                 Den v týdnu
-                <select
+                <select className="select__search"
                   value={props.filter.date || ''}
                   onChange={(event) => {
                     props.setFilter({
@@ -91,7 +91,7 @@ export const Search = (props) => {
             </div>
             <button onClick={handleFilter} className="btn__advanced">
               Rozšířené hledání
-            </button>
+                </button>
             <div
               className={
                 openedFilter === false
