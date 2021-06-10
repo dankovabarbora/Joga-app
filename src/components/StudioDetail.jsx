@@ -55,7 +55,7 @@ export const StudioDetail = () => {
               </a>
             </div>
             <div className="oneStudio__email">
-              <a href={studio.email}>
+              <a href={`mailto:${studio.email}`}>
                 <img
                   className="oneStudio__icons"
                   src="/assets/mail.svg"
