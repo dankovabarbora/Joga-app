@@ -12,7 +12,7 @@ export const Search = (props) => {
     setLimit(Number.MAX_SAFE_INTEGER);
   };
 
-  const handleClick = () => {
+  const handleFilter = () => {
     setOpenedFilter(!openedFilter);
   };
 
@@ -89,7 +89,7 @@ export const Search = (props) => {
                 />
               </label>
             </div>
-            <button onClick={handleClick} className="btn__advanced">
+            <button onClick={handleFilter} className="btn__advanced">
               Rozšířené hledání
             </button>
             <div

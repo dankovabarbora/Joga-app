@@ -65,6 +65,7 @@ select {
 .btn__loadMore {
   text-align: center;
   margin: 0 auto;
+  margin-top: 15px;
   display: block;
   border: none;
   border-radius: 100px;

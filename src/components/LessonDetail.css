@@ -28,6 +28,7 @@
 
 .oneResult__contacts {
   display: flex;
+  flex-direction: column;
 }
 
 .oneResult__links {
@@ -37,8 +38,9 @@
 .oneResult__email,
 .oneResult__website {
   padding-right: 10px;
-  padding-left: 15px;
+  /*padding-left: 15px;*/
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .oneResult__phone {
