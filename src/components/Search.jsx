@@ -61,14 +61,14 @@ export const Search = (props) => {
                     });
                   }}
                 >
-                  <option value="">Zvolte den...</option>
+                  <option value="">Všechny dny v týdnu</option>
                   <option value="1">Pondělí</option>
                   <option value="2">Úterý</option>
                   <option value="3">Středa</option>
                   <option value="4">Čtvrtek</option>
                   <option value="5">Pátek</option>
                   <option value="6">Sobota</option>
-                  <option value="7">Neděle</option>
+                  <option value="0">Neděle</option>
                 </select>
               </label>
 

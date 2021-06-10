@@ -10,7 +10,7 @@ import {
 import data from '../data.json';
 import { filterLessons } from './filterLessons';
 
-const dnyVTydnu = ['Po', 'Út', 'St', 'Čt', 'Pá', 'So', 'Ne'];
+const dnyVTydnu = ['Ne', 'Po', 'Út', 'St', 'Čt', 'Pá', 'So'];
 
 export const LessonList = (props) => {
   console.log(props);
