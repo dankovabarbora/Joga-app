@@ -9,11 +9,8 @@ import {
 import data from '../data.json';
 
 export function filterLessons(filter, limit) {
-
   return data.Lekce.filter((lekce) => {
     const day = new Date(lekce.date).getDay();
-
-/*lekce.slice(0, limit);*/
 
     if (filter.available === true && lekce.occupancy === 'full') {
       return false;
@@ -63,5 +60,5 @@ export function filterLessons(filter, limit) {
     }
 
     return true;
-  });
+  }).slice(0, limit);
 }

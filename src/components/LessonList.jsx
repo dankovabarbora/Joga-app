@@ -17,26 +17,6 @@ export const LessonList = (props) => {
   const filteredLessons = filterLessons(props.filter);
   console.log(filteredLessons.length);
 
-  /*const lessonsPerPage = 7;
-  let arrayForLessons = [];
-  const [lessonsToShow, setLessonsToShow] = useState([]);
-  const [next, setNext] = useState(lessonsPerPage);
-
-  const sliceList = (start, end) => {
-    const slicedLessons = filteredLessons.slice(start, end);
-    arrayForLessons = [...arrayForLessons, ...slicedLessons];
-    setLessonsToShow(arrayForLessons);
-  };
-
-  useEffect(() => {
-    sliceList(0, lessonsPerPage);
-  }, []);
-
-  const handleShowMoreLessons = () => {
-    sliceList(next, next + lessonsPerPage);
-    setNext(next + lessonsPerPage);
-  };*/
-
   return (
     <>
       <div className="results-intro">
@@ -63,8 +43,8 @@ export const LessonList = (props) => {
             </Link>
           );
         })}
-        <button > Načíst další </button>
       </div>
+     
     </>
   );
 };

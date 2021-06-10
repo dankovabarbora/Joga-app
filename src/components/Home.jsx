@@ -6,11 +6,16 @@ import data from '../locations.json';
 import { Map } from './Map';
 
 export const Home = (props) => {
+  const [limit, setLimit] = useState(5);
+  const loadMore = () => {
+    setLimit(Number.MAX_SAFE_INTEGER);
+  };
+
   return (
     <>
       <div className="intro">
         <div className="intro__div">
-          <h1>Na jógu: Rychle, jednoduše a na pár kliknutí</h1>
+          <h1>Na jógu: Rychle a na pár kliknutí</h1>
         </div>
       </div>
 
@@ -25,7 +30,7 @@ export const Home = (props) => {
             src="/assets/yogaPose1.svg"
             alt="asana01"
           />
-          <h2>Jednoduchost</h2>
+          <h2>Rychle</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Repellendus, ipsum molestiae! Doloremque eum sint illo perspiciatis,
@@ -40,7 +45,7 @@ export const Home = (props) => {
             src="/assets/yogaPose2.svg"
             alt="asana02"
           />
-          <h2>Rychlost</h2>
+          <h2>Přehledně</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Repellendus, ipsum molestiae! Doloremque eum sint illo perspiciatis,
@@ -55,7 +60,7 @@ export const Home = (props) => {
             src="/assets/yogaPose3.svg"
             alt="asana03"
           />
-          <h2>Přehlednost</h2>
+          <h2>S ohledem na Vaše možnosti</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Repellendus, ipsum molestiae! Doloremque eum sint illo perspiciatis,
@@ -187,7 +192,8 @@ export const Home = (props) => {
           </div>
         </form>
       </div>
-      <LessonList filter={props.filter} />
+      <LessonList filter={props.filter} limit={limit} />
+      <button onClick={loadMore}> Načíst další </button>
     </>
   );
 };
