@@ -68,7 +68,7 @@ export const Search = (props) => {
                   <option value="4">Čtvrtek</option>
                   <option value="5">Pátek</option>
                   <option value="6">Sobota</option>
-                  <option value="7">Neděle</option>
+                  <option value="0">Neděle</option>
                 </select>
               </label>
 
