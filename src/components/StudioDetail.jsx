@@ -14,26 +14,25 @@ export const StudioDetail = () => {
 
   return (
     <section className="oneStudio">
+      <h1 className="oneStudio__title">{studio.name}</h1>
       <div className="oneStudio__div">
-        <h1 className="oneStudio__title">{studio.name}</h1>
-        <div className="oneStudio__photogallery">
-          <div className="oneResult__photos">
-            <Carousel
-              autoPlay={true}
-              showThumbs={false}
-              interval={2000}
-              transitionTime={500}
-            >
-              {photos.map((photo, index) => {
-                return (
-                  <div key={index} className="">
-                    <img src={photo.trim()} alt="fotka studia" key={index} />
-                  </div>
-                );
-              })}
-            </Carousel>
-          </div>
+        <div className="oneStudio__photos">
+          <Carousel
+            autoPlay={true}
+            showThumbs={false}
+            interval={2000}
+            transitionTime={500}
+          >
+            {photos.map((photo, index) => {
+              return (
+                <div key={index} className="">
+                  <img src={photo.trim()} alt="fotka studia" key={index} />
+                </div>
+              );
+            })}
+          </Carousel>
         </div>
+
         <div className="oneStudio__details">
           <div className="oneStudio__description">{studio.description}</div>
           <div className="oneStudio__address">

@@ -80,7 +80,11 @@ export const Map = (props) => {
                     })
                   }
                 >
-                  <img src="assets/spendlik_lotos.svg" alt="spendlik" />
+                  <img
+                    className="map__pin"
+                    src="assets/spendlik_lotos.svg"
+                    alt="spendlik"
+                  />
                 </button>
               </Marker>
               {popup === lesson.id ? (

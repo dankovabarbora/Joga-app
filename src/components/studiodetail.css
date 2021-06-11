@@ -52,7 +52,21 @@
   display: none;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
+  .oneStudio_div {
+    display: flex;
+    
+  }
+
+  .oneStudio__photos {
+    flex-basis: 50%;
+  }
+
+  .oneStudio__details {
+    flex-basis: 50%;
+  }
+
+  
   /*
 
   .oneResult__photogallery,

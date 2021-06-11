@@ -100,7 +100,7 @@ export const Search = (props) => {
                 <label className="select-studio">
                   Výběr podle studia
                   <select
-                    className="select__studio"
+                    className="select__search"
                     value={props.filter.studio || ''}
                     onChange={(event) => {
                       props.setFilter({
@@ -125,10 +125,11 @@ export const Search = (props) => {
                     <option value="aloha-joga">Aloha joga</option>
                   </select>
                 </label>
-
+                <br></br>
                 <label className="select-level">
                   Náročnost
                   <select
+                    className="select__search"
                     value={props.filter.level || ''}
                     onChange={(event) => {
                       props.setFilter({

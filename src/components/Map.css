@@ -12,6 +12,9 @@
   outline: none;
   cursor: pointer;
 }
+.map__pin {
+  transform: scale(2);
+}
 
 @media (min-width: 796px) {
   .map-intro {
