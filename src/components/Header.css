@@ -39,6 +39,7 @@
   display: block;
   padding: 10px 20px;
   text-align: center;
+  border-bottom: 1px solid transparent;
 }
 
 .menu_buttons a:hover {

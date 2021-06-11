@@ -54,7 +54,7 @@ export const Map = (props) => {
           positionOptions={{ enableHighAccuracy: true }}
           trackUserLocation={true}
           showAccuracyCircle={false}
-          auto
+          /* auto */
         />
         {lessons.map((lesson) => {
           const studio = studios.find((x) => lesson.studioId === x.id);
