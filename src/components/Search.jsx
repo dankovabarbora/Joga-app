@@ -35,10 +35,8 @@ export const Search = (props) => {
                       ...props.filter,
                       location: event.target.value,
                     });
-                
                   }}
                   name="district"
-                  
                 >
                   <option value="">Všechny městské části</option>
                   {data.map((location, index) => {
@@ -94,61 +92,59 @@ export const Search = (props) => {
                 />
               </label>
             </div>
-            <button onClick={handleFilter} className="btn__advanced">
+            {/* <button onClick={handleFilter} className="btn__advanced">
               Rozšířené hledání
-            </button>
-            {openedFilter === false ? null : (
-              <div className="search__fields-advanced">
-                <label className="select-studio">
-                  Výběr podle studia
-                  <select
-                    className="select__search"
-                    value={props.filter.studio || ''}
-                    onChange={(event) => {
-                      props.setFilter({
-                        ...props.filter,
-                        studio: event.target.value,
-                      });
-                    }}
-                    name="studio__select"
-                  >
-                    <option value="">Všechna studia</option>
-                    <option value="yogaart">YOGA &amp; Art</option>
-                    <option value="karma-yoga">Studio Karma Yoga</option>
-                    <option value="yogame">YOGAME</option>
-                    <option value="jogovna">Jógovna</option>
-                    <option value="jemny-svet">Jemný svět</option>
-                    <option value="joga-letna">Jóga Letná</option>
-                    <option value="joga-krymska">Jóga Krymská</option>
-                    <option value="yoga-daily-life">
-                      Jóga v denním životě Praha 2
-                    </option>
-                    <option value="yoga-karlin">YogaKarlin</option>
-                    <option value="aloha-joga">Aloha joga</option>
-                  </select>
-                </label>
-                <br></br>
-                <label className="select-level">
-                  Náročnost
-                  <select
-                    className="select__search"
-                    value={props.filter.level || ''}
-                    onChange={(event) => {
-                      props.setFilter({
-                        ...props.filter,
-                        level: event.target.value,
-                      });
-                    }}
-                  >
-                    <option value="">Zvolte obtížnost...</option>
-                    <option value="*">*</option>
-                    <option value="**">**</option>
-                    <option value="***">***</option>
-                    <option value="****">****</option>
-                  </select>
-                </label>
-              </div>
-            )}
+            </button> */}
+            <div className="search__fields-advanced">
+              <label className="select-studio">
+                Výběr podle studia
+                <select
+                  className="select__search"
+                  value={props.filter.studio || ''}
+                  onChange={(event) => {
+                    props.setFilter({
+                      ...props.filter,
+                      studio: event.target.value,
+                    });
+                  }}
+                  name="studio__select"
+                >
+                  <option value="">Všechna studia</option>
+                  <option value="yogaart">YOGA &amp; Art</option>
+                  <option value="karma-yoga">Studio Karma Yoga</option>
+                  <option value="yogame">YOGAME</option>
+                  <option value="jogovna">Jógovna</option>
+                  <option value="jemny-svet">Jemný svět</option>
+                  <option value="joga-letna">Jóga Letná</option>
+                  <option value="joga-krymska">Jóga Krymská</option>
+                  <option value="yoga-daily-life">
+                    Jóga v denním životě Praha 2
+                  </option>
+                  <option value="yoga-karlin">YogaKarlin</option>
+                  <option value="aloha-joga">Aloha joga</option>
+                </select>
+              </label>
+              <br></br>
+              <label className="select-level">
+                Náročnost
+                <select
+                  className="select__search"
+                  value={props.filter.level || ''}
+                  onChange={(event) => {
+                    props.setFilter({
+                      ...props.filter,
+                      level: event.target.value,
+                    });
+                  }}
+                >
+                  <option value="">Zvolte...</option>
+                  <option value="*">*</option>
+                  <option value="**">**</option>
+                  <option value="***">***</option>
+                  <option value="****">****</option>
+                </select>
+              </label>
+            </div>
           </div>
         </form>
       </div>
