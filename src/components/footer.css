@@ -2,5 +2,8 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  background-color: white;
+  background-color: /*rgb(209, 235, 236)*/whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 0;
+  
 }

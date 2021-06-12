@@ -16,6 +16,17 @@
   transform: scale(2);
 }
 
+.map__navigation {
+  position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.map__navigation > * {
+	position: static !important;
+}
+
+
 @media (min-width: 796px) {
   .map-intro {
     width: 70%;

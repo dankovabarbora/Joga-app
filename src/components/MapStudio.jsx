@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import ReactMapGL, { Marker } from 'react-map-gl';
+import ReactMapGL, { Marker, NavigationControl } from 'react-map-gl';
 import data from '../data.json';
 import spendlikUrl from '../assets/spendlik_lotos.svg';
+import './MapStudio.css';
 
 export const MapStudio = () => {
   let { id } = useParams();
@@ -46,13 +47,16 @@ export const MapStudio = () => {
       }}
     >
       <Marker
-      offsetLeft={-25}
-      offsetTop={-50}
+        offsetLeft={-25}
+        offsetTop={-50}
         latitude={parseFloat(position[0])}
         longitude={parseFloat(position[1].trim())}
       >
         <img src={spendlikUrl} width={50} height={50} alt={studio.name} />
       </Marker>
+      <div className="map__navigation">
+        <NavigationControl />
+      </div>
     </ReactMapGL>
   );
 };

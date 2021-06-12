@@ -28,7 +28,7 @@
 
 .oneResult__contacts {
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
 }
 
 .oneResult__links {
@@ -38,14 +38,14 @@
 .oneResult__email,
 .oneResult__website {
   padding-right: 10px;
-  /*padding-left: 15px;*/
+  padding-left: 15px;
   padding-bottom: 10px;
-  padding-top: 10px;
+  /*padding-top: 10px;*/
 }
 
-.oneResult__phone {
+/*.oneResult__phone {
   padding-top: 5px;
-}
+}*/
 
 .button__reservation {
   display: block;
@@ -92,6 +92,7 @@ a {
 @media (min-width: 800px) {
   .oneResult__div {
     display: flex;
+    flex-direction: row;
   }
 
   .oneResult__details {
@@ -100,5 +101,7 @@ a {
 
   .oneResult__photogallery {
     flex-basis: 50%;
+    object-fit: cover;
+    margin-right: 40px;
   }
 }

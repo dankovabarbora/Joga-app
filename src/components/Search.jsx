@@ -35,8 +35,10 @@ export const Search = (props) => {
                       ...props.filter,
                       location: event.target.value,
                     });
+                
                   }}
                   name="district"
+                  
                 >
                   <option value="">Všechny městské části</option>
                   {data.map((location, index) => {

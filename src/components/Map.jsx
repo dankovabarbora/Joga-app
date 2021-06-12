@@ -1,7 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import './Map.css';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import ReactMapGL, { Marker, Popup, GeolocateControl } from 'react-map-gl';
+import ReactMapGL, {
+  Marker,
+  Popup,
+  GeolocateControl,
+  NavigationControl,
+} from 'react-map-gl';
 import { filterLessons } from './filterLessons';
 import data from '../data.json';
 
@@ -16,6 +21,16 @@ export const Map = (props) => {
 
   const studios = data.Studio;
   const lessons = filterLessons(props.filter);
+
+  /*const onSelectLocation = useCallback(({ longitude, latitude }) => {
+    setViewport({
+      longitude,
+      latitude,
+      zoom: 11,
+      transitionInterpolator: new FlyToInterpolator({ speed: 1.2 }),
+      transitionDuration: 'auto',
+    });
+  }, []);*/
 
   return (
     <div className="map-intro">
@@ -45,17 +60,21 @@ export const Map = (props) => {
         width="100%"
         height={'100%'}
         onViewportChange={(nextViewport) => setViewport(nextViewport)}
+        /*onViewportChange={setViewport}*/
       >
         <GeolocateControl
           style={{
             right: 10,
-            top: 10,
+            top: 100,
           }}
           positionOptions={{ enableHighAccuracy: true }}
           trackUserLocation={true}
           showAccuracyCircle={false}
           /* auto */
         />
+        <div className="map__navigation">
+          <NavigationControl />
+        </div>
         {lessons.map((lesson) => {
           const studio = studios.find((x) => lesson.studioId === x.id);
 

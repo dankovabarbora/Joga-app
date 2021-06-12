@@ -31,58 +31,60 @@ export const LessonDetail = () => {
       <div className="oneResult__description">{lekce.description}</div>
 
       <div className="oneResult__div">
-        <ul className="oneResult__details">
-          {/*<li>Název lekce: {lekce.title}</li>*/}
+        <div className="oneResult__details">
+          <ul className="oneResult__details">
+            {/*<li>Název lekce: {lekce.title}</li>*/}
 
-          <li className="oneResult__capacity">
-            Kapacita:{' '}
-            {lekce.occupancy === 'full'
-              ? 'Kapacita této lekce byla naplněna.'
-              : 'Na této lekci jsou stále volná místa.'}
-          </li>
-          <li className="oneResult__difficulty">
-            Náročnost: {lekce.difficulty}{' '}
-          </li>
-          <li className="oneResult__length">
-            Délka lekce: {`${lekce.length * 60} minut`}{' '}
-          </li>
-          <li className="oneResult__teacher">Lektor: {lekce.teacher}</li>
-          <li className="oneResult__price">Cena: {lekce.price}</li>
-
-          <div className="oneResult__contacts">
-            <li className="oneResult__phone">
-              <img
-                className="oneResult__icons"
-                src="/assets/phone.svg"
-                alt="ikona telefon"
-              ></img>
-              <div className="oneResult__phone-text">{studio.phone}</div>
+            <li className="oneResult__capacity">
+              Kapacita:{' '}
+              {lekce.occupancy === 'full'
+                ? 'Kapacita této lekce byla naplněna.'
+                : 'Na této lekci jsou stále volná místa.'}
             </li>
-            <div className="oneResult__links">
-              <li className="oneResult__email">
-                <a href={`mailto:${studio.email}`}>
-                  <img
-                    className="oneResult__icons"
-                    src="/assets/mail.svg"
-                    alt="ikona email"
-                  ></img>
-                </a>
+            <li className="oneResult__difficulty">
+              Náročnost: {lekce.difficulty}{' '}
+            </li>
+            <li className="oneResult__length">
+              Délka lekce: {`${lekce.length * 60} minut`}{' '}
+            </li>
+            <li className="oneResult__teacher">Lektor: {lekce.teacher}</li>
+            <li className="oneResult__price">Cena: {lekce.price}</li>
+            <h2>Kontakty</h2>
+            <div className="oneResult__contacts">
+              <li className="oneResult__phone">
+                <img
+                  className="oneResult__icons"
+                  src="/assets/phone.svg"
+                  alt="ikona telefon"
+                ></img>
+                <div className="oneResult__phone-text">{studio.phone}</div>
               </li>
-              <li className="oneResult__website">
-                <a href={studio.website}>
-                  <img
-                    className="oneResult__icons"
-                    src="/assets/ikonka.svg"
-                    alt="ikona webové stránky"
-                  ></img>
-                </a>
-              </li>
+              <div className="oneResult__links">
+                <li className="oneResult__email">
+                  <a href={`mailto:${studio.email}`}>
+                    <img
+                      className="oneResult__icons"
+                      src="/assets/mail.svg"
+                      alt="ikona email"
+                    ></img>
+                  </a>
+                </li>
+                <li className="oneResult__website">
+                  <a href={studio.website}>
+                    <img
+                      className="oneResult__icons"
+                      src="/assets/ikonka.svg"
+                      alt="ikona webové stránky"
+                    ></img>
+                  </a>
+                </li>
+              </div>
             </div>
-          </div>
-          <a href={lekce.reservation}>
-            <button className="button__reservation">Rezervujte</button>
-          </a>
-        </ul>
+            <a href={lekce.reservation}>
+              <button className="button__reservation">Rezervujte</button>
+            </a>
+          </ul>
+        </div>
 
         <div className="oneResult__photogallery">
           <div className="oneResult__photos">
@@ -91,11 +93,10 @@ export const LessonDetail = () => {
             })}
           </div>
         </div>
-
-        {/* <button>
+      </div>
+      {/* <button>
           <Link to="/lesson-list">Zpět na výsledky hledání</Link>
         </button> */}
-      </div>
     </section>
   );
 };
