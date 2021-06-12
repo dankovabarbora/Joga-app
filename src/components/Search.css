@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   line-height: 2;
- /* margin-left: 10px;
+  /* margin-left: 10px;
   text-align: left;*/
 }
 
@@ -96,6 +96,14 @@
 
 .btn__loadMore:hover {
   background-color: rgb(209, 235, 236);
+}
+
+.btn__loadMore-disabled {
+  background-color: whitesmoke;
+}
+
+.btn__loadMore-disabled:hover {
+  background-color: whitesmoke;
 }
 
 /*RESPOONZIVITA*/

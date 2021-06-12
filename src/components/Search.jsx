@@ -149,9 +149,19 @@ export const Search = (props) => {
         </form>
       </div>
       <LessonList filter={props.filter} limit={limit} />
-      <button className="btn__loadMore" onClick={loadMore}>
+      <button
+        className={
+          limit === Number.MAX_SAFE_INTEGER
+            ? 'btn__loadMore btn__loadMore-disabled'
+            : 'btn__loadMore'
+        }
+        onClick={loadMore}
+        disabled={limit === Number.MAX_SAFE_INTEGER ? true : false}
+      >
         {' '}
-        Načíst další{' '}
+        {limit === Number.MAX_SAFE_INTEGER
+          ? 'To je vše'
+          : 'Načíst další...'}{' '}
       </button>
     </>
   );
