@@ -108,7 +108,7 @@
 
 /*RESPOONZIVITA*/
 
-@media (min-width: 640px) {
+@media (min-width: 700px) {
   .search__fields-basic {
     display: flex;
     flex-direction: row;
