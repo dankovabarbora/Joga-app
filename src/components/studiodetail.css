@@ -12,6 +12,7 @@
 
 .oneStudio__description {
   text-align: justify;
+  padding-bottom: 20px;
 }
 
 .oneStudio__icons {
@@ -24,12 +25,12 @@
 .oneStudio__instagram,
 .oneStudio__email {
   padding-right: 20px;
-  padding-top: 20px;
+  /*padding-top: 20px;*/
 }
 
 .oneStudio__address {
   display: flex;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .oneStudio__address-text {
@@ -37,9 +38,10 @@
 }
 
 .oneStudio__links {
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   display: flex;
   align-items: center;
+  padding-bottom: 10px;
 }
 
 .oneStudio__links a {
@@ -52,10 +54,10 @@
   display: none;
 }
 
-@media (min-width: 800px) {
-  .oneStudio_div {
+@media (min-width: 1000px) {
+  .oneStudio__div {
     display: flex;
-    
+    padding-bottom: 20px;
   }
 
   .oneStudio__photos {
@@ -66,9 +68,11 @@
     flex-basis: 50%;
   }
 
-  
-  /*
+.map__studio {
+  height: 150px;
+}
 
+  /*
   .oneResult__photogallery,
   .oneResult__details {
     width: auto;

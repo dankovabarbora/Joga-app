@@ -4,6 +4,7 @@ import './studiodetail.css';
 import data from '../data.json';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
+import { MapStudio } from './MapStudio';
 
 export const StudioDetail = () => {
   let { id } = useParams();
@@ -35,6 +36,7 @@ export const StudioDetail = () => {
 
         <div className="oneStudio__details">
           <div className="oneStudio__description">{studio.description}</div>
+          
           <div className="oneStudio__address">
             <img
               className="oneStudio__icons"
@@ -43,7 +45,10 @@ export const StudioDetail = () => {
             />
             <div className="oneStudio__address-text">{studio.address}</div>
           </div>
+          <h2>Zůstaňte ve spojení!</h2>
           <div className="oneStudio__links">
+            
+            
             <div className="oneStudio__website">
               <a href={studio.website}>
                 <img
@@ -93,8 +98,11 @@ export const StudioDetail = () => {
               </a>
             </div>
           </div>
+          
         </div>
+        
       </div>
+      <MapStudio className="map__studio"/>
     </section>
   );
 };
