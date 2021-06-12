@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  background-color:white;
+  background-color: white;
   justify-content: space-between;
   position: relative;
 }
@@ -89,7 +89,7 @@
   }
 }
 
-@media (min-width: 796px) {
+@media (min-width: 850px) {
   .hamburger-btn {
     display: none;
   }

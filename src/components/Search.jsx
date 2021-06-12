@@ -117,9 +117,7 @@ export const Search = (props) => {
                   <option value="jemny-svet">Jemný svět</option>
                   <option value="joga-letna">Jóga Letná</option>
                   <option value="joga-krymska">Jóga Krymská</option>
-                  <option value="yoga-daily-life">
-                    Jóga v denním životě Praha 2
-                  </option>
+                  <option value="yoga-daily-life">Jóga v denním životě</option>
                   <option value="yoga-karlin">YogaKarlin</option>
                   <option value="aloha-joga">Aloha joga</option>
                 </select>
