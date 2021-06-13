@@ -1,4 +1,4 @@
-/*nastaveno pro breaking-point 378px */
+/*nastaveno pro breaking-point 320px */
 .results a {
   display: block;
   text-decoration: none;
@@ -34,7 +34,7 @@
   text-decoration: none;
   color: black;
   line-height: 2;
-  font-size: 1rem;
+  font-size: 0.8rem /*1rem*/;
   margin: 5px;
   padding-left: 20px;
 }
@@ -53,7 +53,7 @@
 }
 
 .results__time {
-  font-size: 1rem;
+  font-size: 0.8rem /*1rem*/;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -86,6 +86,17 @@
 
 .results-intro a:nth-child(2n):hover {
   background-color: rgb(209, 235, 236);
+}
+
+/*nastaveno pro breaking-point 378px */
+@media (min-width: 378px) {
+  .results__time {
+    font-size: 1rem;
+  }
+
+  .results-intro a {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 640px) {
