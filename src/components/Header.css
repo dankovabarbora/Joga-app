@@ -79,7 +79,7 @@
 @media (min-width: 640px) {
   .header {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
   }
 
   .intro__text {
@@ -100,6 +100,9 @@
   .hamburger-btn {
     display: none;
   }
+  .header {
+    align-items: center;
+  }
 
   .menu {
     width: 100%;
@@ -118,7 +121,6 @@
 @media (min-width: 1000px) {
   .header {
     display: flex;
-    align-items: center;
   }
 
   .logo-container {
