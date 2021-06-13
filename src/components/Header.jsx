@@ -14,7 +14,9 @@ export const Header = () => {
         <Link className="" to="/">
           <img className="logo-lotos" src="../assets/lotos.svg" alt="lotos" />
         </Link>
-        <p className="logo-text">Na jógu</p>
+        <p className={menuOpen === true ? 'logo-text nav-closed' : 'logo-text'}>
+          Na jógu
+        </p>
       </div>
 
       <nav className={menuOpen === false ? 'menu nav-closed' : 'menu'}>
