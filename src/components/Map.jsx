@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Map.css';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import ReactMapGL, {
@@ -22,15 +22,18 @@ export const Map = (props) => {
   const studios = data.Studio;
   const lessons = filterLessons(props.filter);
 
-  /*const onSelectLocation = useCallback(({ longitude, latitude }) => {
-    setViewport({
-      longitude,
-      latitude,
-      zoom: 11,
-      transitionInterpolator: new FlyToInterpolator({ speed: 1.2 }),
-      transitionDuration: 'auto',
-    });
-  }, []);*/
+  useEffect(() => {
+    const location = props.filter.location
+      ? props.filter.location.split(',').map((s) => parseFloat(s))
+      : null;
+    if (location) {
+      setViewport({
+        latitude: location[0],
+        longitude: location[1],
+        zoom: 12,
+      });
+    }
+  }, [props.filter.location, setViewport]);
 
   return (
     <div className="map-intro">
@@ -60,7 +63,6 @@ export const Map = (props) => {
         width="100%"
         height={'100%'}
         onViewportChange={(nextViewport) => setViewport(nextViewport)}
-        /*onViewportChange={setViewport}*/
       >
         <GeolocateControl
           style={{
