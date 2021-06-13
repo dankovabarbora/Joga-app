@@ -57,7 +57,7 @@ export const LessonDetail = () => {
                   src="/assets/phone.svg"
                   alt="ikona telefon"
                 ></img>
-                <div className="oneResult__phone-text">{studio.phone}</div>
+                <a href={`tel:${studio.phone}`}><div className="oneResult__phone-text">{studio.phone}</div></a>
               </li>
               <div className="oneResult__links">
                 <li className="oneResult__email">

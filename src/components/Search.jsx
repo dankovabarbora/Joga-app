@@ -12,10 +12,10 @@ export const Search = (props) => {
     setLimit(Number.MAX_SAFE_INTEGER);
   };
 
-  const handleFilter = (event) => {
+  /*const handleFilter = (event) => {
     event.preventDefault();
     setOpenedFilter(!openedFilter);
-  };
+  };*/
 
   return (
     <>

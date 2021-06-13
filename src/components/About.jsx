@@ -21,11 +21,9 @@ export const About = () => {
           kterou bychom rády samy využívaly. Výsledkem je tento <strong>rozcestník</strong>, který by
           uživateli nebo uživatelce pomohl jednoduše vyhledat nejbližší
           dostupnou lekci jógy v jeho / jejím okolí. Základem je <strong>interaktivní
-          mapa</strong>, díky níž může uživatel / uživatelka prozkoumávat své okolí a
-          nabídky jednotlivých studií. Své hledání pak může zpřesnit díky
-          několika filtrům, jež hledání zpřesňují.
+          mapa</strong>. Díky ní lze prozkoumávat vlastní okolí a nabídky jednotlivých studií. Hledání je pak možné zpřesnit přes filtry zohledňující náročnost lekce,  výběr jógového studia, dne v týdnu a městské čtvrti. 
         </p>
-        {/*Pozn. sem vložit třeba video, jak se pracuje s mapou*/}
+        {/*Pozn. sem možné vložit video, jak se pracuje s mapou*/}
 
         <p className="about__articles-third">
           Věříme, že tento projekt může pomoct zpřístupnit jógu těm, kteří ji

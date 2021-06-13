@@ -47,6 +47,10 @@
   padding-top: 5px;
 }*/
 
+.oneResult__phone-text {
+  color: black;
+}
+
 .button__reservation {
   display: block;
   border: none;
