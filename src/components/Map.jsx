@@ -88,8 +88,8 @@ export const Map = (props) => {
               <Marker
                 latitude={coordinates[0]}
                 longitude={coordinates[1]}
-                offsetLeft={-8}
-                offsetTop={-24}
+                offsetLeft={-10}
+                offsetTop={-40}
               >
                 <button
                   className="marker-button"
@@ -112,7 +112,7 @@ export const Map = (props) => {
                 <Popup
                   latitude={coordinates[0]}
                   longitude={coordinates[1]}
-                  offsetTop={-34}
+                  offsetTop={-54}
                   onClose={() => setPopup(null)}
                 >
                   {studio.name}
