@@ -15,15 +15,7 @@
   width: 2em;
   position: absolute;
   top: 40px;
-  /*margin-left: 30px;
-  margin-top: 30px;
-  margin-bottom: -4px;*/
 }
-
-/*.results {
-  margin: 10px;
-}
-*/
 
 .results__list {
   padding: 20px;
@@ -34,7 +26,7 @@
 
 .results-intro {
   width: 100%;
-  background-color:/* whitesmoke*/ white;
+  background-color: white;
 }
 
 .results-intro a {
@@ -81,7 +73,7 @@
 }
 
 .results-intro a:nth-child(1n) {
-  background-color: whitesmoke /* rgb(209, 235, 236)*/;
+  background-color: whitesmoke;
 }
 
 .results-intro a:nth-child(1n):hover {
@@ -89,7 +81,7 @@
 }
 
 .results-intro a:nth-child(2n) {
-  background-color: whitesmoke /* lightgray*/;
+  background-color: whitesmoke;
 }
 
 .results-intro a:nth-child(2n):hover {

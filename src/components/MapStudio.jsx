@@ -10,7 +10,6 @@ export const MapStudio = () => {
   let { id } = useParams();
   const studio = data.Studio.find((x) => x.id === id);
   const position = studio.position.split(',');
-  console.log(position);
 
   const [viewport, setViewport] = useState({
     latitude: parseFloat(position[0]),

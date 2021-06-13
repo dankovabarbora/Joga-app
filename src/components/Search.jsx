@@ -6,16 +6,10 @@ import { Map } from './Map';
 
 export const Search = (props) => {
   const [limit, setLimit] = useState(5);
-  const [openedFilter, setOpenedFilter] = useState(false);
 
   const loadMore = () => {
     setLimit(Number.MAX_SAFE_INTEGER);
   };
-
-  /*const handleFilter = (event) => {
-    event.preventDefault();
-    setOpenedFilter(!openedFilter);
-  };*/
 
   return (
     <>
@@ -92,9 +86,6 @@ export const Search = (props) => {
                 />
               </label>
             </div>
-            {/* <button onClick={handleFilter} className="btn__advanced">
-              Rozšířené hledání
-            </button> */}
             <div className="search__fields-advanced">
               <label className="select-studio">
                 Výběr podle studia

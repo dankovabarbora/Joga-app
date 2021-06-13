@@ -2,14 +2,13 @@
   background-image: url('../assets/rozcestnik_edit.jpg');
   background-size: cover;
   background-position: top center;
-  min-height: /*100vh*/ 400px;
+  min-height: 400px;
   min-width: 100%;
 }
 .intro__div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 .intro h1 {
   color: black;
@@ -22,7 +21,6 @@
   width: 300px;
   padding-left: 20px;
   padding-right: 40px;
-  
 }
 
 .btn__start {
@@ -36,7 +34,6 @@
   font-family: 'Amatic SC', cursive;
   padding-top: 10px;
   padding-bottom: 10px;
-  
 }
 
 .btn__start:hover {
@@ -67,53 +64,8 @@ h2 {
   font-family: 'Amatic SC', cursive;
   font-size: 2rem;
 }
-/*search
-.search-intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.search__form {
-  border-radius: 10px;
-  display: flex;
-  line-height: 2;
-}
 
-.search__fields {
-  padding: 20px 0;
-}
-
-.search__fields input {
-  border: 1px solid black;
-}
-
-.checkbox__input {
-  margin: 0;
-  width: 2rem;
-}
-
-select {
-  margin-left: 10px;
-}
-
-.btn__loadMore {
-  text-align: center;
-  margin: 0 auto;
-  display: block;
-  border: none;
-  border-radius: 100px;
-  width: 150px;
-  cursor: pointer;
-  font-size: 1.5rem;
-  font-family: 'Amatic SC', cursive;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.btn__loadMore:hover {
-  background-color: rgb(209, 235, 236);
-}*/
-/*RESPOONZIVITA*/
+/*RESPONZIVITA*/
 
 @media (min-width: 470px) {
   .intro__articles {

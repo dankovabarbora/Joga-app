@@ -79,7 +79,6 @@
 @media (min-width: 640px) {
   .header {
     display: flex;
-    /* align-items: center; */
   }
 
   .intro__text {

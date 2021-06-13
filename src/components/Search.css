@@ -10,12 +10,9 @@
 }
 
 .search__form {
-  /*border-radius: 10px;*/
   display: flex;
   flex-direction: column;
   line-height: 2;
-  /* margin-left: 10px;
-  text-align: left;*/
 }
 
 .search__fields {
@@ -26,8 +23,7 @@
   display: none;
 }
 
-.search__fields-basic/*,
-.search__fields-advanced*/ {
+.search__fields-basic {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -37,12 +33,6 @@
 .search__fields-advanced {
   margin-top: 15px;
 }
-
-/*.select-day,
-.select-studio,
-.select-level {
-  margin-right: 10px;
-}*/
 
 .select-day {
   padding-right: 10px;
@@ -106,7 +96,7 @@
   background-color: whitesmoke;
 }
 
-/*RESPOONZIVITA*/
+/*RESPONZIVITA*/
 
 @media (min-width: 700px) {
   .search__fields-basic {
@@ -137,7 +127,4 @@
   .select__studio {
     margin-left: 10px;
   }
-}
-
-@media (min-width: 1000px) {
 }

@@ -25,7 +25,6 @@
 .oneStudio__instagram,
 .oneStudio__email {
   padding-right: 20px;
-  /*padding-top: 20px;*/
 }
 
 .oneStudio__address {
@@ -38,7 +37,6 @@
 }
 
 .oneStudio__links {
-  /*padding-top: 10px;*/
   display: flex;
   align-items: center;
   padding-bottom: 10px;
@@ -68,14 +66,7 @@
     flex-basis: 50%;
   }
 
-.map__studio {
-  height: 150px;
-}
-
-  /*
-  .oneResult__photogallery,
-  .oneResult__details {
-    width: auto;
-    z-index: 0;
-  }*/
+  .map__studio {
+    height: 150px;
+  }
 }

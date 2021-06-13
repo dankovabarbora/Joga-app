@@ -12,7 +12,7 @@ import { LessonList } from './LessonList';
 
 export const LessonDetail = () => {
   let { id } = useParams();
-  console.log(id);
+
   const lekce = data.Lekce.find((x) => x.id == id);
   const studio = data.Studio.find((s) => s.id == lekce.studioId);
   const time = new Date(lekce.time);
@@ -33,8 +33,6 @@ export const LessonDetail = () => {
       <div className="oneResult__div">
         <div className="oneResult__details">
           <ul className="oneResult__details">
-            {/*<li>Název lekce: {lekce.title}</li>*/}
-
             <li className="oneResult__capacity">
               Kapacita:{' '}
               {lekce.occupancy === 'full'
@@ -57,7 +55,9 @@ export const LessonDetail = () => {
                   src="/assets/phone.svg"
                   alt="ikona telefon"
                 ></img>
-                <a href={`tel:${studio.phone}`}><div className="oneResult__phone-text">{studio.phone}</div></a>
+                <a href={`tel:${studio.phone}`}>
+                  <div className="oneResult__phone-text">{studio.phone}</div>
+                </a>
               </li>
               <div className="oneResult__links">
                 <li className="oneResult__email">
@@ -94,9 +94,6 @@ export const LessonDetail = () => {
           </div>
         </div>
       </div>
-      {/* <button>
-          <Link to="/lesson-list">Zpět na výsledky hledání</Link>
-        </button> */}
     </section>
   );
 };

@@ -13,9 +13,7 @@ import { filterLessons } from './filterLessons';
 const dnyVTydnu = ['Ne', 'Po', 'Út', 'St', 'Čt', 'Pá', 'So'];
 
 export const LessonList = (props) => {
-  console.log(props);
   const filteredLessons = filterLessons(props.filter, props.limit);
-  console.log(filteredLessons.length);
 
   return (
     <>

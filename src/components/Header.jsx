@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 
 export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
